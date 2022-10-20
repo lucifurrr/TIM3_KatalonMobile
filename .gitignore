@@ -1,0 +1,12 @@
+.classpath
+.settings
+settings
+.project
+.cache
+*.gradle
+*.log
+console.properties
+bin
+Reports
+Libs
+.DS_Store
