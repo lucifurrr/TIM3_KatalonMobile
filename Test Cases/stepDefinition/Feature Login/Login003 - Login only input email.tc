@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login003 - Login only input email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>562cfdef-6896-46ff-b447-c24b6de9005d</testCaseGuid>
+</TestCaseEntity>

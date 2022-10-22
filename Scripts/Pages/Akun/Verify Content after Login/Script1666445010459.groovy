@@ -17,17 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.verifyElementExist(findTestObject('homepage/image_banner'), 0)
+Mobile.verifyElementVisible(findTestObject('akun/title_Akun Saya'), 0)
 
-Mobile.delay(25, FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('akun/image_profile'), 0)
 
-Mobile.verifyElementVisible(findTestObject('homepage/image_product1'), 0)
+Mobile.verifyElementVisible(findTestObject('akun/text_profile name'), 0)
 
-Mobile.verifyElementVisible(findTestObject('homepage/text_product_name'), 0)
+Mobile.verifyElementVisible(findTestObject('akun/text_phone'), 0)
 
-Mobile.verifyElementVisible(findTestObject('homepage/text_product_category'), 0)
-
-Mobile.verifyElementVisible(findTestObject('homepage/text_product_price'), 0)
-
-Mobile.tap(findTestObject('homepage/image_product1'), 0)
+Mobile.verifyElementVisible(findTestObject('akun/text_email'), 0)
 

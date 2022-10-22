@@ -17,17 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.verifyElementExist(findTestObject('homepage/image_banner'), 0)
+WebUI.callTestCase(findTestCase('Pages/Navigation/Click Akun'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.delay(25, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Akun/Click Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('homepage/image_product1'), 0)
+WebUI.callTestCase(findTestCase('Pages/Login/Input email'), [('email') : 'apps1@thomi.anonaddy.me'], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('homepage/text_product_name'), 0)
+WebUI.callTestCase(findTestCase('Pages/Login/Input password'), [('password') : ''], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('homepage/text_product_category'), 0)
+WebUI.callTestCase(findTestCase('Pages/Login/Click masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('homepage/text_product_price'), 0)
-
-Mobile.tap(findTestObject('homepage/image_product1'), 0)
+WebUI.callTestCase(findTestCase('Pages/Login/Read Error Message - Pass Empty'), [:], FailureHandling.STOP_ON_FAILURE)
 
