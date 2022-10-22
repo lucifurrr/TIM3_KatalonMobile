@@ -21,11 +21,11 @@ WebUI.callTestCase(findTestCase('Pages/Navigation/Click Akun'), [:], FailureHand
 
 WebUI.callTestCase(findTestCase('Pages/Akun/Click Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Login/Input email'), [('email') : 'apps1@thomi.anonaddy.me'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Login/Input email'), [('email') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Login/Input password'), [('password') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Login/Input password'), [('password') : '123456'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Login/Click masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Login/Read Error Message - Pass Empty'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Login/Read Error Message - Email Empty'), [:], FailureHandling.STOP_ON_FAILURE)
 
