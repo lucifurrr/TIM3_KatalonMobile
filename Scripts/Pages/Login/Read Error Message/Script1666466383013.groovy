@@ -18,5 +18,5 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-Mobile.verifyElementVisible(findTestObject('login/error_Password tidak boleh kosong'), 0)
+Mobile.verifyElementText(findTestObject('login/message error'), message)
 

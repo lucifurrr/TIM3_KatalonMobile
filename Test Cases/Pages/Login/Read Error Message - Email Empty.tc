@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Read Error Message - Email Empty</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>37f4ba9e-ad80-4fd4-8562-26c5e607585f</testCaseGuid>
-</TestCaseEntity>

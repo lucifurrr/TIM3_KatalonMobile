@@ -23,9 +23,7 @@ WebUI.callTestCase(findTestCase('Pages/Akun/Click Masuk'), [:], FailureHandling.
 
 WebUI.callTestCase(findTestCase('Pages/Login/Input email'), [('email') : 'apps1@thomi.anonaddy.me'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Login/Input password'), [('password') : ''], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('Pages/Login/Click masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Login/Read Error Message - Pass Empty'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Login/Read Error Message'), [('message') : 'Password tidak boleh kosong'], FailureHandling.STOP_ON_FAILURE)
 
