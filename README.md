@@ -8,4 +8,4 @@ Saiful Hadi,
 Sofia Awiliyah,
 Afi Sherma,
 Tri Yuniarti Ambarsari,
-Sandri Alfarisi,
+Sandri Alfarisi.
