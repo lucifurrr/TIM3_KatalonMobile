@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential","testCaseId":"Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential","iterationVariableName":""}
+{"testCaseName":"Test Cases/stepDefinition/Feature Login/Login002 - login without input username and password","testCaseId":"Test Cases/stepDefinition/Feature Login/Login002 - login without input username and password","iterationVariableName":""}
+{"testCaseName":"Test Cases/stepDefinition/Feature Login/Login003 - Login only input email","testCaseId":"Test Cases/stepDefinition/Feature Login/Login003 - Login only input email","iterationVariableName":""}
+{"testCaseName":"Test Cases/stepDefinition/Feature Login/Login004 - login only input password","testCaseId":"Test Cases/stepDefinition/Feature Login/Login004 - login only input password","iterationVariableName":""}

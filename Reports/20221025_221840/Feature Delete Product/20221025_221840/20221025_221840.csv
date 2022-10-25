@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Delete Product,,,,2022-10-25 22:18:47,2022-10-25 22:19:50,1m - 3.287s,PASSED
+,,,,,,,
+Test Cases/stepDefinition/Feature Delete Product/Del001 - Cancel delete product,,,,2022-10-25 22:18:59,2022-10-25 22:19:24,25.053s,PASSED
+Start listener action : beforeTestCase,,,,2022-10-25 22:18:59,2022-10-25 22:19:07,8.112s,PASSED
+"callTestCase(findTestCase(""stepDefinition/Feature Login/Login001 - Login with valid credential""), [:], STOP_ON_FAILURE)",,,,2022-10-25 22:19:07,2022-10-25 22:19:17,9.956s,PASSED
+"callTestCase(findTestCase(""Pages/Akun/Tap Daftar Jual Saya""), [:], STOP_ON_FAILURE)",,,,2022-10-25 22:19:17,2022-10-25 22:19:17,0.414s,PASSED
+"callTestCase(findTestCase(""Pages/DaftarJualSaya/Verify Content""), [:], STOP_ON_FAILURE)",,,,2022-10-25 22:19:17,2022-10-25 22:19:19,1.642s,PASSED
+"callTestCase(findTestCase(""Pages/DaftarJualSaya/Tap Tab Produk""), [:], STOP_ON_FAILURE)",,,,2022-10-25 22:19:19,2022-10-25 22:19:20,1.031s,PASSED
+"callTestCase(findTestCase(""Pages/DaftarJualSaya/Tap Delete Product""), [:], STOP_ON_FAILURE)",,,,2022-10-25 22:19:20,2022-10-25 22:19:21,0.613s,PASSED
+"callTestCase(findTestCase(""Pages/DeleteProduct/Verify Content""), [:], STOP_ON_FAILURE)",,,,2022-10-25 22:19:21,2022-10-25 22:19:22,1.020s,PASSED
+"callTestCase(findTestCase(""Pages/DeleteProduct/Tap batalkan""), [:], STOP_ON_FAILURE)",,,,2022-10-25 22:19:22,2022-10-25 22:19:22,0.409s,PASSED
+"callTestCase(findTestCase(""Pages/DaftarJualSaya/Verify Content""), [:], STOP_ON_FAILURE)",,,,2022-10-25 22:19:22,2022-10-25 22:19:23,1.103s,PASSED
+Start listener action : afterTestCase,,,,2022-10-25 22:19:23,2022-10-25 22:19:24,0.547s,PASSED
+,,,,,,,
+Test Cases/stepDefinition/Feature Delete Product/Del002 - Delete product,,,,2022-10-25 22:19:24,2022-10-25 22:19:50,26.320s,PASSED
+Start listener action : beforeTestCase,,,,2022-10-25 22:19:24,2022-10-25 22:19:33,9.143s,PASSED
+"callTestCase(findTestCase(""stepDefinition/Feature Login/Login001 - Login with valid credential""), [:], STOP_ON_FAILURE)",,,,2022-10-25 22:19:33,2022-10-25 22:19:43,9.481s,PASSED
+"callTestCase(findTestCase(""Pages/Akun/Tap Daftar Jual Saya""), [:], STOP_ON_FAILURE)",,,,2022-10-25 22:19:43,2022-10-25 22:19:43,0.495s,PASSED
+"callTestCase(findTestCase(""Pages/DaftarJualSaya/Verify Content""), [:], STOP_ON_FAILURE)",,,,2022-10-25 22:19:43,2022-10-25 22:19:46,2.506s,PASSED
+"callTestCase(findTestCase(""Pages/DaftarJualSaya/Tap Tab Produk""), [:], STOP_ON_FAILURE)",,,,2022-10-25 22:19:46,2022-10-25 22:19:46,0.246s,PASSED
+"callTestCase(findTestCase(""Pages/DaftarJualSaya/Tap Delete Product""), [:], STOP_ON_FAILURE)",,,,2022-10-25 22:19:46,2022-10-25 22:19:46,0.578s,PASSED
+"callTestCase(findTestCase(""Pages/DeleteProduct/Verify Content""), [:], STOP_ON_FAILURE)",,,,2022-10-25 22:19:46,2022-10-25 22:19:48,1.246s,PASSED
+"callTestCase(findTestCase(""Pages/DeleteProduct/Tap hapus""), [:], STOP_ON_FAILURE)",,,,2022-10-25 22:19:48,2022-10-25 22:19:48,0.480s,PASSED
+"callTestCase(findTestCase(""Pages/DeleteProduct/Verify Message""), [:], STOP_ON_FAILURE)",,,,2022-10-25 22:19:48,2022-10-25 22:19:50,1.562s,PASSED
+Start listener action : afterTestCase,,,,2022-10-25 22:19:50,2022-10-25 22:19:50,0.391s,PASSED

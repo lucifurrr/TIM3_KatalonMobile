@@ -28,7 +28,8 @@ import cucumber.api.junit.Cucumber;
 features = "Include/features",
 glue = "stepDefinition",
 tags = "",
-monochrome = true
+monochrome = true,
+plugin = "html:Reports/Cucumber"
 )
 
 public class Runner {

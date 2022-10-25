@@ -18,5 +18,5 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-Mobile.verifyElementText(findTestObject('login/message error'), message)
+Mobile.verifyElementText(findTestObject('Page_Login/message error'), message)
 
