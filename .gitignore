@@ -7,6 +7,5 @@ settings
 *.log
 console.properties
 bin
-Reports
 Libs
 .DS_Store
