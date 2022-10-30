@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EditIProduct002 - User want to edit product without fill product description</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0878d9d4-a4f2-477d-98aa-f1ba497dc1ba</testCaseGuid>
+</TestCaseEntity>

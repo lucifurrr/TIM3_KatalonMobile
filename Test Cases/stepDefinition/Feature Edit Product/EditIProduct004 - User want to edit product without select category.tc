@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EditIProduct004 - User want to edit product without select category</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3a558bc-8ee4-4af6-be23-5f6d876cbcef</testCaseGuid>
+</TestCaseEntity>

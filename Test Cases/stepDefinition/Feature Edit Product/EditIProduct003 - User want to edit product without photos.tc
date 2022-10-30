@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EditIProduct003 - User want to edit product without photos</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc5715f6-e261-46df-956e-5d3904e087db</testCaseGuid>
+</TestCaseEntity>
