@@ -25,9 +25,9 @@ WebUI.callTestCase(findTestCase('Pages/Register/Tap Link Daftar'), [:], FailureH
 
 WebUI.callTestCase(findTestCase('Pages/Register/Input Nama'), [('nama') : 'Afi Sherma'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Register/Input Email'), [('email') : 'pltnmchllgn11@yopmail.com'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Register/Input Email'), [('email') : 'apps1@thomi.anonaddy.me'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Register/Input Password'), [('password') : '123'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Register/Input Password'), [('password') : 'Password.123'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Register/Input Nomor HP'), [('nohp') : '08122121123'], FailureHandling.STOP_ON_FAILURE)
 
@@ -36,6 +36,8 @@ WebUI.callTestCase(findTestCase('Pages/Register/Input Kota'), [('kota') : 'Semar
 WebUI.callTestCase(findTestCase('Pages/Register/Input Alamat'), [('alamat') : 'Jalan DI Panjaitan 70'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Register/Tap Button Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Register/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

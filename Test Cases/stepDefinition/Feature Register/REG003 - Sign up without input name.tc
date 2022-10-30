@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REG003 - Sign up without input name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7a4cac9-8f11-4ef5-9f17-c20e1fb2080d</testCaseGuid>
+</TestCaseEntity>
