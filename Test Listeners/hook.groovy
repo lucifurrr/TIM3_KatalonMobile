@@ -42,15 +42,15 @@ class Hook {
     Mobile.closeApplication()
  }
 
-  @BeforeTestSuite
-  def beforeTestSuite(TestSuiteContext testSuiteContext) {
-    KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
-    this.launchApp()
-  }
+  //@BeforeTestSuite
+  //def beforeTestSuite(TestSuiteContext testSuiteContext) {
+    //KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
+    //this.launchApp()
+  //}
 
-  @AfterTestSuite
-  def afterTestSuite(TestSuiteContext testSuiteContext) {
-    KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
-    Mobile.closeApplication()
-  }
+  //@AfterTestSuite
+  //def afterTestSuite(TestSuiteContext testSuiteContext) {
+    //KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
+    //Mobile.closeApplication()
+  //}
 }

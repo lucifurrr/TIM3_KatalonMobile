@@ -45,48 +45,48 @@ import cucumber.api.java.en.When
 
 
 class Login {
-@Then("User click akun button")
-public void user_click_akun_button() {
-	WebUI.callTestCase(findTestCase('Pages/Navigation/Click Akun'), [:], FailureHandling.STOP_ON_FAILURE)
-}
+	@Then("User click akun button")
+	public void user_click_akun_button() {
+		WebUI.callTestCase(findTestCase('Pages/Navigation/Tap Akun'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
 
-@Then("User click masuk button")
-public void user_click_masuk_button() {
-	WebUI.callTestCase(findTestCase('Pages/Login/Click masuk'), [:], FailureHandling.STOP_ON_FAILURE)
-}
+	@Then("User click masuk button")
+	public void user_click_masuk_button() {
+		WebUI.callTestCase(findTestCase('Pages/Login/Tap masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
 
-@Then("App show message error on email {string}")
-public void app_show_message_error_on_email(String message1) {
-	WebUI.callTestCase(findTestCase('Pages/Login/Read Error Message'), [('message') : message1], FailureHandling.STOP_ON_FAILURE)
-}
+	@Then("App show message error on email {string}")
+	public void app_show_message_error_on_email(String message1) {
+		WebUI.callTestCase(findTestCase('Pages/Login/Read Error Message'), [('message') : message1], FailureHandling.STOP_ON_FAILURE)
+	}
 
-@Then("User input registered email {string}")
-public void user_input_registered_email(String email) {
-	WebUI.callTestCase(findTestCase('Pages/Login/Input email'), [('email') : email], FailureHandling.STOP_ON_FAILURE)
-}
+	@Then("User input registered email {string}")
+	public void user_input_registered_email(String email) {
+		WebUI.callTestCase(findTestCase('Pages/Login/Input email'), [('email') : email], FailureHandling.STOP_ON_FAILURE)
+	}
 
-@Then("App show message error on password {string}")
-public void app_show_message_error_on_password(String message2) {
-	WebUI.callTestCase(findTestCase('Pages/Login/Read Error Message'), [('message') : message2], FailureHandling.STOP_ON_FAILURE)
-}
+	@Then("App show message error on password {string}")
+	public void app_show_message_error_on_password(String message2) {
+		WebUI.callTestCase(findTestCase('Pages/Login/Read Error Message'), [('message') : message2], FailureHandling.STOP_ON_FAILURE)
+	}
 
-@Then("User clear text on email field")
-public void user_clear_text_on_email_field() {
-	Mobile.clearText(findTestObject('login/textfield_email'), 0)
-}
+	@Then("User clear text on email field")
+	public void user_clear_text_on_email_field() {
+		Mobile.clearText(findTestObject('Page_Login/textfield_email'), 0)
+	}
 
-@Then("User input password {string}")
-public void user_input_password(String password) {
-	WebUI.callTestCase(findTestCase('Pages/Login/Input password'), [('password') : password], FailureHandling.STOP_ON_FAILURE)
-}
+	@Then("User input password {string}")
+	public void user_input_password(String password) {
+		WebUI.callTestCase(findTestCase('Pages/Login/Input password'), [('password') : password], FailureHandling.STOP_ON_FAILURE)
+	}
 
-@Then("User clear text on password field")
-public void user_clear_text_on_password_field() {
-	Mobile.clearText(findTestObject('login/textfield_password'), 0)
-}
+	@Then("User clear text on password field")
+	public void user_clear_text_on_password_field() {
+		Mobile.clearText(findTestObject('Page_Login/textfield_password'), 0)
+	}
 
-@Then("User redirected to homepage")
-public void user_redirected_to_homepage() {
-	WebUI.callTestCase(findTestCase('Pages/Akun/Verify Content after Login'), [:], FailureHandling.STOP_ON_FAILURE)
-}
+	@Then("User redirected to homepage")
+	public void user_redirected_to_homepage() {
+		WebUI.callTestCase(findTestCase('Pages/Login/Verify Content after Login'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
 }

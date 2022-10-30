@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,,,,2022-10-22 21:03:48,2022-10-22 21:05:22,1m - 33.710s,FAILED
+,,,,,,,
+Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential,,,,2022-10-22 21:03:59,2022-10-22 21:04:18,18.994s,PASSED
+Start listener action : beforeTestCase,,,,2022-10-22 21:03:59,2022-10-22 21:04:07,8.323s,PASSED
+"callTestCase(findTestCase(""Pages/Navigation/Click Akun""), [:], STOP_ON_FAILURE)",,,,2022-10-22 21:04:07,2022-10-22 21:04:09,1.406s,PASSED
+"callTestCase(findTestCase(""Pages/Akun/Click Masuk""), [:], STOP_ON_FAILURE)",,,,2022-10-22 21:04:09,2022-10-22 21:04:09,0.698s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Input email""), [""email"":""apps1@thomi.anonaddy.me""], STOP_ON_FAILURE)",,,,2022-10-22 21:04:09,2022-10-22 21:04:11,1.969s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Input password""), [""password"":""123456""], STOP_ON_FAILURE)",,,,2022-10-22 21:04:11,2022-10-22 21:04:13,2.085s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Click masuk""), [:], STOP_ON_FAILURE)",,,,2022-10-22 21:04:13,2022-10-22 21:04:14,0.563s,PASSED
+"callTestCase(findTestCase(""Pages/Akun/Verify Content after Login""), [:], STOP_ON_FAILURE)",,,,2022-10-22 21:04:14,2022-10-22 21:04:17,3.228s,PASSED
+Start listener action : afterTestCase,,,,2022-10-22 21:04:17,2022-10-22 21:04:18,0.512s,PASSED
+,,,,,,,
+Test Cases/stepDefinition/Feature Login/Login002 - login without input username and password,,,,2022-10-22 21:04:18,2022-10-22 21:04:35,16.875s,PASSED
+Start listener action : beforeTestCase,,,,2022-10-22 21:04:18,2022-10-22 21:04:27,8.967s,PASSED
+"callTestCase(findTestCase(""Pages/Navigation/Click Akun""), [:], STOP_ON_FAILURE)",,,,2022-10-22 21:04:27,2022-10-22 21:04:28,1.591s,PASSED
+"callTestCase(findTestCase(""Pages/Akun/Click Masuk""), [:], STOP_ON_FAILURE)",,,,2022-10-22 21:04:28,2022-10-22 21:04:29,0.277s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Input email""), [""email"":""""], STOP_ON_FAILURE)",,,,2022-10-22 21:04:29,2022-10-22 21:04:31,1.845s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Input password""), [""password"":""""], STOP_ON_FAILURE)",,,,2022-10-22 21:04:31,2022-10-22 21:04:33,2.180s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Click masuk""), [:], STOP_ON_FAILURE)",,,,2022-10-22 21:04:33,2022-10-22 21:04:33,0.594s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Read Error Message - Email Empty""), [:], STOP_ON_FAILURE)",,,,2022-10-22 21:04:33,2022-10-22 21:04:34,0.843s,PASSED
+Start listener action : afterTestCase,,,,2022-10-22 21:04:34,2022-10-22 21:04:35,0.380s,PASSED
+,,,,,,,
+Test Cases/stepDefinition/Feature Login/Login003 - Login only input email,,,,2022-10-22 21:05:21,2022-10-22 21:05:21,0.103s,FAILED
+Start listener action : beforeTestCase,,,,2022-10-22 21:05:21,2022-10-22 21:05:21,0.005s,ERROR
+"callTestCase(findTestCase(""Pages/Navigation/Click Akun""), [:], STOP_ON_FAILURE)",,,,2022-10-22 21:05:21,2022-10-22 21:05:21,0.093s,FAILED
+Start listener action : afterTestCase,,,,2022-10-22 21:05:21,2022-10-22 21:05:21,0.002s,PASSED
+,,,,,,,
+Test Cases/stepDefinition/Feature Login/Login004 - login only input password,,,,2022-10-22 21:05:22,2022-10-22 21:05:22,0.097s,FAILED
+Start listener action : beforeTestCase,,,,2022-10-22 21:05:22,2022-10-22 21:05:22,0.005s,ERROR
+"callTestCase(findTestCase(""Pages/Navigation/Click Akun""), [:], STOP_ON_FAILURE)",,,,2022-10-22 21:05:22,2022-10-22 21:05:22,0.088s,FAILED
+Start listener action : afterTestCase,,,,2022-10-22 21:05:22,2022-10-22 21:05:22,0.001s,PASSED

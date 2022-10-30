@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Delete Product" time="63.287" tests="2" failures="0" errors="0">
+   <testsuite name="Feature Delete Product" tests="2" failures="0" errors="0" time="63.287" skipped="0" timestamp="2022-10-25 22:18:47" hostname="Lucifur - Lucifurrr" id="Test Suites/Feature Delete Product">
+      <properties>
+         <property name="deviceName" value="Genymobile Samsung Galaxy Note 10+ (Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Lucifur\\git\\TIM3_KatalonMobile\\Reports\\20221025_221840\\Feature Delete Product\\20221025_221840"/>
+         <property name="logFiles" value="C:\\Users\\Lucifur\\git\\TIM3_KatalonMobile\\Reports\\20221025_221840\\Feature Delete Product\\20221025_221840\\appium.log, C:\\Users\\Lucifur\\git\\TIM3_KatalonMobile\\Reports\\20221025_221840\\Feature Delete Product\\20221025_221840\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lucifur - Lucifurrr"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Samsung Galaxy Note 10+"/>
+         <property name="hostAddress" value="192.168.72.2"/>
+         <property name="deviceManufacturer" value="Genymobile"/>
+         <property name="deviceId" value="192.168.72.106:5555"/>
+         <property name="deviceName" value="Genymobile Samsung Galaxy Note 10+ (Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/stepDefinition/Feature Delete Product/Del001 - Cancel delete product" time="25.053" classname="Test Cases/stepDefinition/Feature Delete Product/Del001 - Cancel delete product" status="PASSED">
+         <system-out><![CDATA[2022-10-25 22:18:59 - [TEST_CASE][PASSED] - Test Cases/stepDefinition/Feature Delete Product/Del001 - Cancel delete product: Test Cases/stepDefinition/Feature Delete Product/Del001 - Cancel delete product
+
+2022-10-25 22:18:59 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'C:\Users\Lucifur\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-10-25 22:18:59 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Delete Product/Del001 - Cancel delete product
+
+2022-10-25 22:18:59 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Delete Product/Del001 - Cancel delete product
+
+2022-10-25 22:18:59 - [TEST_STEP][PASSED] - launchApp(): null
+
+2022-10-25 22:18:59 - [TEST_STEP][PASSED] - startApplication("Apk/secondhand.apk", true): Started app at: 'C:\Users\Lucifur\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-10-25 22:18:59 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-10-25 22:18:59 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-10-25 22:18:59 - [MESSAGE][INFO] - User set preference: ['appWaitforLunch', 'false']
+
+2022-10-25 22:19:07 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Lucifur\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-10-25 22:19:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("stepDefinition/Feature Login/Login001 - Login with valid credential"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential' successfully
+
+2022-10-25 22:19:07 - [TEST_CASE][PASSED] - Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential: Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential
+
+2022-10-25 22:19:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navigation/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-10-25 22:19:07 - [TEST_CASE][PASSED] - Test Cases/Pages/Navigation/Tap Akun: Test Cases/Pages/Navigation/Tap Akun
+
+2022-10-25 22:19:08 - [TEST_STEP][PASSED] - tap(findTestObject("navigation_bar/nav_akun"), 0): Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-10-25 22:19:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-10-25 22:19:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-10-25 22:19:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-25 22:19:09 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-10-25 22:19:09 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-25 22:19:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-25 22:19:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-25 22:19:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input email"), ["email":"apps1@thomi.anonaddy.me"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-10-25 22:19:09 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input email: Test Cases/Pages/Login/Input email
+
+2022-10-25 22:19:09 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_email"), 0): Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-10-25 22:19:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:10 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-10-25 22:19:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_email"), email, 0): Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-10-25 22:19:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:12 - [MESSAGE][PASSED] - Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-10-25 22:19:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-10-25 22:19:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input password"), ["password":"123456"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-10-25 22:19:12 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input password: Test Cases/Pages/Login/Input password
+
+2022-10-25 22:19:12 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_password"), 0): Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-10-25 22:19:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:12 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-10-25 22:19:12 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_password"), password, 0): Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-10-25 22:19:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:13 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-10-25 22:19:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-10-25 22:19:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-25 22:19:13 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-10-25 22:19:13 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-25 22:19:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-25 22:19:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-25 22:19:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Verify Content after Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-10-25 22:19:14 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Verify Content after Login: Test Cases/Pages/Login/Verify Content after Login
+
+2022-10-25 22:19:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/title_Akun Saya"), 0): Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-10-25 22:19:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:16 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-10-25 22:19:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/image_profile"), 0): Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-10-25 22:19:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:16 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-10-25 22:19:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_profile name"), 0): Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-10-25 22:19:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:17 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-10-25 22:19:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_phone"), 0): Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-10-25 22:19:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:17 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-10-25 22:19:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_email"), 0): Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-10-25 22:19:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:17 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-10-25 22:19:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-10-25 22:19:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential' successfully
+
+2022-10-25 22:19:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Daftar Jual Saya"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Daftar Jual Saya' successfully
+
+2022-10-25 22:19:17 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Daftar Jual Saya: Test Cases/Pages/Akun/Tap Daftar Jual Saya
+
+2022-10-25 22:19:17 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_daftar jual saya"), 0): Tapped on element 'Object Repository/Page_Akun/button_daftar jual saya'
+
+2022-10-25 22:19:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_daftar jual saya'
+
+2022-10-25 22:19:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Daftar Jual Saya' successfully
+
+2022-10-25 22:19:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/DaftarJualSaya/Verify Content"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/DaftarJualSaya/Verify Content' successfully
+
+2022-10-25 22:19:18 - [TEST_CASE][PASSED] - Test Cases/Pages/DaftarJualSaya/Verify Content: Test Cases/Pages/DaftarJualSaya/Verify Content
+
+2022-10-25 22:19:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Daftar_Jual_Saya/header_ Daftar Jual Saya"), 0): Element 'Object Repository/Page_Daftar_Jual_Saya/header_ Daftar Jual Saya' is visible
+
+2022-10-25 22:19:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:19 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar_Jual_Saya/header_ Daftar Jual Saya' is visible
+
+2022-10-25 22:19:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Daftar_Jual_Saya/tab_Produk"), 0): Element 'Object Repository/Page_Daftar_Jual_Saya/tab_Produk' is visible
+
+2022-10-25 22:19:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:19 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar_Jual_Saya/tab_Produk' is visible
+
+2022-10-25 22:19:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Daftar_Jual_Saya/tab_Diminati"), 0): Element 'Object Repository/Page_Daftar_Jual_Saya/tab_Diminati' is visible
+
+2022-10-25 22:19:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:19 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar_Jual_Saya/tab_Diminati' is visible
+
+2022-10-25 22:19:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Daftar_Jual_Saya/tab_Terjual"), 0): Element 'Object Repository/Page_Daftar_Jual_Saya/tab_Terjual' is visible
+
+2022-10-25 22:19:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:19 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar_Jual_Saya/tab_Terjual' is visible
+
+2022-10-25 22:19:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/DaftarJualSaya/Verify Content' successfully
+
+2022-10-25 22:19:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/DaftarJualSaya/Tap Tab Produk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/DaftarJualSaya/Tap Tab Produk' successfully
+
+2022-10-25 22:19:19 - [TEST_CASE][PASSED] - Test Cases/Pages/DaftarJualSaya/Tap Tab Produk: Test Cases/Pages/DaftarJualSaya/Tap Tab Produk
+
+2022-10-25 22:19:19 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Daftar_Jual_Saya/tab_Produk"), 0): Tapped on element 'Object Repository/Page_Daftar_Jual_Saya/tab_Produk'
+
+2022-10-25 22:19:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Daftar_Jual_Saya/tab_Produk'
+
+2022-10-25 22:19:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/DaftarJualSaya/Tap Tab Produk' successfully
+
+2022-10-25 22:19:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/DaftarJualSaya/Tap Delete Product"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/DaftarJualSaya/Tap Delete Product' successfully
+
+2022-10-25 22:19:20 - [TEST_CASE][PASSED] - Test Cases/Pages/DaftarJualSaya/Tap Delete Product: Test Cases/Pages/DaftarJualSaya/Tap Delete Product
+
+2022-10-25 22:19:20 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Daftar_Jual_Saya/button_delete product"), 0): Tapped on element 'Object Repository/Page_Daftar_Jual_Saya/button_delete product'
+
+2022-10-25 22:19:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Daftar_Jual_Saya/button_delete product'
+
+2022-10-25 22:19:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/DaftarJualSaya/Tap Delete Product' successfully
+
+2022-10-25 22:19:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/DeleteProduct/Verify Content"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/DeleteProduct/Verify Content' successfully
+
+2022-10-25 22:19:21 - [TEST_CASE][PASSED] - Test Cases/Pages/DeleteProduct/Verify Content: Test Cases/Pages/DeleteProduct/Verify Content
+
+2022-10-25 22:19:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Daftar_Jual_Saya/text_Hapus produk ini"), 0): Element 'Object Repository/Page_Daftar_Jual_Saya/text_Hapus produk ini' is visible
+
+2022-10-25 22:19:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:22 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar_Jual_Saya/text_Hapus produk ini' is visible
+
+2022-10-25 22:19:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Daftar_Jual_Saya/button_Batalkan"), 0): Element 'Object Repository/Page_Daftar_Jual_Saya/button_Batalkan' is visible
+
+2022-10-25 22:19:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:22 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar_Jual_Saya/button_Batalkan' is visible
+
+2022-10-25 22:19:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Daftar_Jual_Saya/button_Hapus"), 0): Element 'Object Repository/Page_Daftar_Jual_Saya/button_Hapus' is visible
+
+2022-10-25 22:19:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:22 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar_Jual_Saya/button_Hapus' is visible
+
+2022-10-25 22:19:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/DeleteProduct/Verify Content' successfully
+
+2022-10-25 22:19:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/DeleteProduct/Tap batalkan"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/DeleteProduct/Tap batalkan' successfully
+
+2022-10-25 22:19:22 - [TEST_CASE][PASSED] - Test Cases/Pages/DeleteProduct/Tap batalkan: Test Cases/Pages/DeleteProduct/Tap batalkan
+
+2022-10-25 22:19:22 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Daftar_Jual_Saya/button_Batalkan"), 0): Tapped on element 'Object Repository/Page_Daftar_Jual_Saya/button_Batalkan'
+
+2022-10-25 22:19:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Daftar_Jual_Saya/button_Batalkan'
+
+2022-10-25 22:19:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/DeleteProduct/Tap batalkan' successfully
+
+2022-10-25 22:19:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/DaftarJualSaya/Verify Content"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/DaftarJualSaya/Verify Content' successfully
+
+2022-10-25 22:19:22 - [TEST_CASE][PASSED] - Test Cases/Pages/DaftarJualSaya/Verify Content: Test Cases/Pages/DaftarJualSaya/Verify Content
+
+2022-10-25 22:19:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Daftar_Jual_Saya/header_ Daftar Jual Saya"), 0): Element 'Object Repository/Page_Daftar_Jual_Saya/header_ Daftar Jual Saya' is visible
+
+2022-10-25 22:19:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:23 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar_Jual_Saya/header_ Daftar Jual Saya' is visible
+
+2022-10-25 22:19:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Daftar_Jual_Saya/tab_Produk"), 0): Element 'Object Repository/Page_Daftar_Jual_Saya/tab_Produk' is visible
+
+2022-10-25 22:19:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:23 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar_Jual_Saya/tab_Produk' is visible
+
+2022-10-25 22:19:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Daftar_Jual_Saya/tab_Diminati"), 0): Element 'Object Repository/Page_Daftar_Jual_Saya/tab_Diminati' is visible
+
+2022-10-25 22:19:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:23 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar_Jual_Saya/tab_Diminati' is visible
+
+2022-10-25 22:19:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Daftar_Jual_Saya/tab_Terjual"), 0): Element 'Object Repository/Page_Daftar_Jual_Saya/tab_Terjual' is visible
+
+2022-10-25 22:19:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:23 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar_Jual_Saya/tab_Terjual' is visible
+
+2022-10-25 22:19:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/DaftarJualSaya/Verify Content' successfully
+
+2022-10-25 22:19:23 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2022-10-25 22:19:23 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Delete Product/Del001 - Cancel delete product
+
+2022-10-25 22:19:23 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Delete Product/Del001 - Cancel delete product
+
+2022-10-25 22:19:23 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-10-25 22:19:24 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/stepDefinition/Feature Delete Product/Del002 - Delete product" time="26.32" classname="Test Cases/stepDefinition/Feature Delete Product/Del002 - Delete product" status="PASSED">
+         <system-out><![CDATA[2022-10-25 22:19:24 - [TEST_CASE][PASSED] - Test Cases/stepDefinition/Feature Delete Product/Del002 - Delete product: Test Cases/stepDefinition/Feature Delete Product/Del002 - Delete product
+
+2022-10-25 22:19:24 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'C:\Users\Lucifur\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-10-25 22:19:24 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Delete Product/Del002 - Delete product
+
+2022-10-25 22:19:24 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Delete Product/Del002 - Delete product
+
+2022-10-25 22:19:24 - [TEST_STEP][PASSED] - launchApp(): null
+
+2022-10-25 22:19:24 - [TEST_STEP][PASSED] - startApplication("Apk/secondhand.apk", true): Started app at: 'C:\Users\Lucifur\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-10-25 22:19:24 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-10-25 22:19:24 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-10-25 22:19:24 - [MESSAGE][INFO] - User set preference: ['appWaitforLunch', 'false']
+
+2022-10-25 22:19:24 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-10-25 22:19:25 - [MESSAGE][INFO] - Appium server started on port 54,707
+
+2022-10-25 22:19:33 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Lucifur\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-10-25 22:19:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("stepDefinition/Feature Login/Login001 - Login with valid credential"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential' successfully
+
+2022-10-25 22:19:33 - [TEST_CASE][PASSED] - Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential: Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential
+
+2022-10-25 22:19:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navigation/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-10-25 22:19:33 - [TEST_CASE][PASSED] - Test Cases/Pages/Navigation/Tap Akun: Test Cases/Pages/Navigation/Tap Akun
+
+2022-10-25 22:19:33 - [TEST_STEP][PASSED] - tap(findTestObject("navigation_bar/nav_akun"), 0): Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-10-25 22:19:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-10-25 22:19:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-10-25 22:19:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-25 22:19:34 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-10-25 22:19:34 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-25 22:19:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-25 22:19:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-25 22:19:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input email"), ["email":"apps1@thomi.anonaddy.me"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-10-25 22:19:35 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input email: Test Cases/Pages/Login/Input email
+
+2022-10-25 22:19:35 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_email"), 0): Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-10-25 22:19:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:36 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-10-25 22:19:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_email"), email, 0): Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-10-25 22:19:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:37 - [MESSAGE][PASSED] - Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-10-25 22:19:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-10-25 22:19:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input password"), ["password":"123456"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-10-25 22:19:37 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input password: Test Cases/Pages/Login/Input password
+
+2022-10-25 22:19:37 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_password"), 0): Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-10-25 22:19:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:37 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-10-25 22:19:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_password"), password, 0): Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-10-25 22:19:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:38 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-10-25 22:19:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-10-25 22:19:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-25 22:19:38 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-10-25 22:19:38 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-25 22:19:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-25 22:19:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-25 22:19:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Verify Content after Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-10-25 22:19:39 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Verify Content after Login: Test Cases/Pages/Login/Verify Content after Login
+
+2022-10-25 22:19:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/title_Akun Saya"), 0): Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-10-25 22:19:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:41 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-10-25 22:19:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/image_profile"), 0): Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-10-25 22:19:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:42 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-10-25 22:19:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_profile name"), 0): Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-10-25 22:19:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:42 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-10-25 22:19:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_phone"), 0): Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-10-25 22:19:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:42 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-10-25 22:19:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_email"), 0): Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-10-25 22:19:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:43 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-10-25 22:19:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-10-25 22:19:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential' successfully
+
+2022-10-25 22:19:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Daftar Jual Saya"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Daftar Jual Saya' successfully
+
+2022-10-25 22:19:43 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Daftar Jual Saya: Test Cases/Pages/Akun/Tap Daftar Jual Saya
+
+2022-10-25 22:19:43 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_daftar jual saya"), 0): Tapped on element 'Object Repository/Page_Akun/button_daftar jual saya'
+
+2022-10-25 22:19:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_daftar jual saya'
+
+2022-10-25 22:19:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Daftar Jual Saya' successfully
+
+2022-10-25 22:19:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/DaftarJualSaya/Verify Content"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/DaftarJualSaya/Verify Content' successfully
+
+2022-10-25 22:19:43 - [TEST_CASE][PASSED] - Test Cases/Pages/DaftarJualSaya/Verify Content: Test Cases/Pages/DaftarJualSaya/Verify Content
+
+2022-10-25 22:19:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Daftar_Jual_Saya/header_ Daftar Jual Saya"), 0): Element 'Object Repository/Page_Daftar_Jual_Saya/header_ Daftar Jual Saya' is visible
+
+2022-10-25 22:19:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:44 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar_Jual_Saya/header_ Daftar Jual Saya' is visible
+
+2022-10-25 22:19:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Daftar_Jual_Saya/tab_Produk"), 0): Element 'Object Repository/Page_Daftar_Jual_Saya/tab_Produk' is visible
+
+2022-10-25 22:19:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:45 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar_Jual_Saya/tab_Produk' is visible
+
+2022-10-25 22:19:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Daftar_Jual_Saya/tab_Diminati"), 0): Element 'Object Repository/Page_Daftar_Jual_Saya/tab_Diminati' is visible
+
+2022-10-25 22:19:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:45 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar_Jual_Saya/tab_Diminati' is visible
+
+2022-10-25 22:19:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Daftar_Jual_Saya/tab_Terjual"), 0): Element 'Object Repository/Page_Daftar_Jual_Saya/tab_Terjual' is visible
+
+2022-10-25 22:19:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:46 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar_Jual_Saya/tab_Terjual' is visible
+
+2022-10-25 22:19:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/DaftarJualSaya/Verify Content' successfully
+
+2022-10-25 22:19:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/DaftarJualSaya/Tap Tab Produk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/DaftarJualSaya/Tap Tab Produk' successfully
+
+2022-10-25 22:19:46 - [TEST_CASE][PASSED] - Test Cases/Pages/DaftarJualSaya/Tap Tab Produk: Test Cases/Pages/DaftarJualSaya/Tap Tab Produk
+
+2022-10-25 22:19:46 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Daftar_Jual_Saya/tab_Produk"), 0): Tapped on element 'Object Repository/Page_Daftar_Jual_Saya/tab_Produk'
+
+2022-10-25 22:19:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Daftar_Jual_Saya/tab_Produk'
+
+2022-10-25 22:19:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/DaftarJualSaya/Tap Tab Produk' successfully
+
+2022-10-25 22:19:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/DaftarJualSaya/Tap Delete Product"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/DaftarJualSaya/Tap Delete Product' successfully
+
+2022-10-25 22:19:46 - [TEST_CASE][PASSED] - Test Cases/Pages/DaftarJualSaya/Tap Delete Product: Test Cases/Pages/DaftarJualSaya/Tap Delete Product
+
+2022-10-25 22:19:46 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Daftar_Jual_Saya/button_delete product"), 0): Tapped on element 'Object Repository/Page_Daftar_Jual_Saya/button_delete product'
+
+2022-10-25 22:19:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Daftar_Jual_Saya/button_delete product'
+
+2022-10-25 22:19:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/DaftarJualSaya/Tap Delete Product' successfully
+
+2022-10-25 22:19:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/DeleteProduct/Verify Content"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/DeleteProduct/Verify Content' successfully
+
+2022-10-25 22:19:47 - [TEST_CASE][PASSED] - Test Cases/Pages/DeleteProduct/Verify Content: Test Cases/Pages/DeleteProduct/Verify Content
+
+2022-10-25 22:19:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Daftar_Jual_Saya/text_Hapus produk ini"), 0): Element 'Object Repository/Page_Daftar_Jual_Saya/text_Hapus produk ini' is visible
+
+2022-10-25 22:19:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:47 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar_Jual_Saya/text_Hapus produk ini' is visible
+
+2022-10-25 22:19:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Daftar_Jual_Saya/button_Batalkan"), 0): Element 'Object Repository/Page_Daftar_Jual_Saya/button_Batalkan' is visible
+
+2022-10-25 22:19:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:48 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar_Jual_Saya/button_Batalkan' is visible
+
+2022-10-25 22:19:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Daftar_Jual_Saya/button_Hapus"), 0): Element 'Object Repository/Page_Daftar_Jual_Saya/button_Hapus' is visible
+
+2022-10-25 22:19:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:48 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar_Jual_Saya/button_Hapus' is visible
+
+2022-10-25 22:19:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/DeleteProduct/Verify Content' successfully
+
+2022-10-25 22:19:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/DeleteProduct/Tap hapus"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/DeleteProduct/Tap hapus' successfully
+
+2022-10-25 22:19:48 - [TEST_CASE][PASSED] - Test Cases/Pages/DeleteProduct/Tap hapus: Test Cases/Pages/DeleteProduct/Tap hapus
+
+2022-10-25 22:19:48 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Daftar_Jual_Saya/button_Hapus"), 0): Tapped on element 'Object Repository/Page_Daftar_Jual_Saya/button_Hapus'
+
+2022-10-25 22:19:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Daftar_Jual_Saya/button_Hapus'
+
+2022-10-25 22:19:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/DeleteProduct/Tap hapus' successfully
+
+2022-10-25 22:19:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/DeleteProduct/Verify Message"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/DeleteProduct/Verify Message' successfully
+
+2022-10-25 22:19:48 - [TEST_CASE][PASSED] - Test Cases/Pages/DeleteProduct/Verify Message: Test Cases/Pages/DeleteProduct/Verify Message
+
+2022-10-25 22:19:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Daftar_Jual_Saya/message_Produk berhasil dihapus"), 0): Element 'Object Repository/Page_Daftar_Jual_Saya/message_Produk berhasil dihapus' is visible
+
+2022-10-25 22:19:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-25 22:19:50 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Daftar_Jual_Saya/message_Produk berhasil dihapus' is visible
+
+2022-10-25 22:19:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/DeleteProduct/Verify Message' successfully
+
+2022-10-25 22:19:50 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2022-10-25 22:19:50 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Delete Product/Del002 - Delete product
+
+2022-10-25 22:19:50 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Delete Product/Del002 - Delete product
+
+2022-10-25 22:19:50 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-10-25 22:19:50 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-25 22:18:47 - [TEST_SUITE][PASSED] - Feature Delete Product: Test Cases/stepDefinition/Feature Delete Product/Del002 - Delete product]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
