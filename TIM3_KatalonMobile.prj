@@ -6,7 +6,7 @@
    <UUID>b818e72a-cc70-4ce3-9db6-ee1d56e33536</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\Sandri\git\TIM3_KatalonMobile\TIM3_KatalonMobile.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\Lenovo\git\TIM3_KatalonMobile\TIM3_KatalonMobile.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
@@ -25,5 +25,6 @@
          </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
+   <timeStampInProperties>true</timeStampInProperties>
    <type>GENERIC</type>
 </Project>
