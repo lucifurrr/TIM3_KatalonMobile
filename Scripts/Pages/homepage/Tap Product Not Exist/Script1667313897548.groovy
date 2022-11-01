@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('stepDefinition/Feature Login/Login001 - Login with valid credential'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementNotVisible(findTestObject('Homepage/image_tango'), 0)
 
-WebUI.callTestCase(findTestCase('Pages/Navigation/Tap Beranda'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementNotVisible(findTestObject('Homepage/text_tango'), 0)
 
-WebUI.callTestCase(findTestCase('Pages/homepage/Input Search'), [('input_search') : 'potato'], FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementNotVisible(findTestObject('Homepage/text_makanandanminuman'), 0)
 
-WebUI.callTestCase(findTestCase('Pages/homepage/Tap Product Not Exist'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementNotVisible(findTestObject('Homepage/text_7000'), 0)
 
