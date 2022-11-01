@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature View Product Detail" time="55.814" tests="1" failures="0" errors="0">
+   <testsuite name="Feature View Product Detail" tests="1" failures="0" errors="0" time="55.814" skipped="0" timestamp="2022-10-30 20:15:55" hostname="Lucifur - Lucifurrr" id="Test Suites/Feature View Product Detail">
+      <properties>
+         <property name="deviceName" value="Genymobile Samsung Galaxy Note 10+ (Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Lucifur\\git\\TIM3_KatalonMobile\\Reports\\20221030_201547\\Feature View Product Detail\\20221030_201547"/>
+         <property name="logFiles" value="C:\\Users\\Lucifur\\git\\TIM3_KatalonMobile\\Reports\\20221030_201547\\Feature View Product Detail\\20221030_201547\\appium.log, C:\\Users\\Lucifur\\git\\TIM3_KatalonMobile\\Reports\\20221030_201547\\Feature View Product Detail\\20221030_201547\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lucifur - Lucifurrr"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Samsung Galaxy Note 10+"/>
+         <property name="hostAddress" value="192.168.72.2"/>
+         <property name="deviceManufacturer" value="Genymobile"/>
+         <property name="deviceId" value="192.168.72.106:5555"/>
+         <property name="deviceName" value="Genymobile Samsung Galaxy Note 10+ (Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/stepDefinition/Feature Product Detail/PRODUCT001 - View product details from other sellers in homepage" time="55.608" classname="Test Cases/stepDefinition/Feature Product Detail/PRODUCT001 - View product details from other sellers in homepage" status="PASSED">
+         <system-out><![CDATA[2022-10-30 20:15:55 - [TEST_CASE][PASSED] - Test Cases/stepDefinition/Feature Product Detail/PRODUCT001 - View product details from other sellers in homepage: Test Cases/stepDefinition/Feature Product Detail/PRODUCT001 - View product details from other sellers in homepage
+
+2022-10-30 20:15:55 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'C:\Users\Lucifur\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-10-30 20:15:55 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Product Detail/PRODUCT001 - View product details from other sellers in homepage
+
+2022-10-30 20:15:55 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Product Detail/PRODUCT001 - View product details from other sellers in homepage
+
+2022-10-30 20:15:55 - [TEST_STEP][PASSED] - launchApp(): null
+
+2022-10-30 20:15:55 - [TEST_STEP][PASSED] - startApplication("Apk/secondhand.apk", true): Started app at: 'C:\Users\Lucifur\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-10-30 20:15:55 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-10-30 20:15:57 - [MESSAGE][INFO] - Appium server started on port 62,833
+
+2022-10-30 20:16:10 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Lucifur\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-10-30 20:16:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/homepage/Tap Product Detail"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/homepage/Tap Product Detail' successfully
+
+2022-10-30 20:16:11 - [TEST_CASE][PASSED] - Test Cases/Pages/homepage/Tap Product Detail: Test Cases/Pages/homepage/Tap Product Detail
+
+2022-10-30 20:16:11 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Homepage/image_banner"), 0): Element 'Object Repository/Homepage/image_banner' is exist
+
+2022-10-30 20:16:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:16:11 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/image_banner' is exist
+
+2022-10-30 20:16:11 - [TEST_STEP][PASSED] - delay(35, STOP_ON_FAILURE): Delayed 35 second(s)
+
+2022-10-30 20:16:46 - [MESSAGE][PASSED] - Delayed 35 second(s)
+
+2022-10-30 20:16:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/image_product1"), 0): Element 'Object Repository/Homepage/image_product1' is visible
+
+2022-10-30 20:16:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:16:46 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/image_product1' is visible
+
+2022-10-30 20:16:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/text_product_name"), 0): Element 'Object Repository/Homepage/text_product_name' is visible
+
+2022-10-30 20:16:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:16:46 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/text_product_name' is visible
+
+2022-10-30 20:16:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/text_product_category"), 0): Element 'Object Repository/Homepage/text_product_category' is visible
+
+2022-10-30 20:16:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:16:47 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/text_product_category' is visible
+
+2022-10-30 20:16:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/text_product_price"), 0): Element 'Object Repository/Homepage/text_product_price' is visible
+
+2022-10-30 20:16:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:16:47 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/text_product_price' is visible
+
+2022-10-30 20:16:47 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/image_product1"), 0): Tapped on element 'Object Repository/Homepage/image_product1'
+
+2022-10-30 20:16:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:16:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/image_product1'
+
+2022-10-30 20:16:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/homepage/Tap Product Detail' successfully
+
+2022-10-30 20:16:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/ProductDetail/Verify Content from other seller"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/ProductDetail/Verify Content from other seller' successfully
+
+2022-10-30 20:16:47 - [TEST_CASE][PASSED] - Test Cases/Pages/ProductDetail/Verify Content from other seller: Test Cases/Pages/ProductDetail/Verify Content from other seller
+
+2022-10-30 20:16:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_product_detail/image_product"), 0): Element 'Object Repository/page_product_detail/image_product' is visible
+
+2022-10-30 20:16:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:16:48 - [MESSAGE][PASSED] - Element 'Object Repository/page_product_detail/image_product' is visible
+
+2022-10-30 20:16:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_product_detail/text_product_name"), 0): Element 'Object Repository/page_product_detail/text_product_name' is visible
+
+2022-10-30 20:16:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:16:48 - [MESSAGE][PASSED] - Element 'Object Repository/page_product_detail/text_product_name' is visible
+
+2022-10-30 20:16:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_product_detail/text_product_price"), 0): Element 'Object Repository/page_product_detail/text_product_price' is visible
+
+2022-10-30 20:16:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:16:48 - [MESSAGE][PASSED] - Element 'Object Repository/page_product_detail/text_product_price' is visible
+
+2022-10-30 20:16:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_product_detail/image_product_owner"), 0): Element 'Object Repository/page_product_detail/image_product_owner' is visible
+
+2022-10-30 20:16:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:16:49 - [MESSAGE][PASSED] - Element 'Object Repository/page_product_detail/image_product_owner' is visible
+
+2022-10-30 20:16:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_product_detail/text_product_owner_name"), 0): Element 'Object Repository/page_product_detail/text_product_owner_name' is visible
+
+2022-10-30 20:16:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:16:49 - [MESSAGE][PASSED] - Element 'Object Repository/page_product_detail/text_product_owner_name' is visible
+
+2022-10-30 20:16:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_product_detail/text_product_owner_city"), 0): Element 'Object Repository/page_product_detail/text_product_owner_city' is visible
+
+2022-10-30 20:16:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:16:49 - [MESSAGE][PASSED] - Element 'Object Repository/page_product_detail/text_product_owner_city' is visible
+
+2022-10-30 20:16:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_product_detail/header_Detail_Produk"), 0): Element 'Object Repository/page_product_detail/header_Detail_Produk' is visible
+
+2022-10-30 20:16:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:16:49 - [MESSAGE][PASSED] - Element 'Object Repository/page_product_detail/header_Detail_Produk' is visible
+
+2022-10-30 20:16:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_product_detail/text_category"), 0): Element 'Object Repository/page_product_detail/text_category' is visible
+
+2022-10-30 20:16:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:16:49 - [MESSAGE][PASSED] - Element 'Object Repository/page_product_detail/text_category' is visible
+
+2022-10-30 20:16:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_product_detail/text_product_category"), 0): Element 'Object Repository/page_product_detail/text_product_category' is visible
+
+2022-10-30 20:16:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:16:49 - [MESSAGE][PASSED] - Element 'Object Repository/page_product_detail/text_product_category' is visible
+
+2022-10-30 20:16:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_product_detail/text_product_desc"), 0): Element 'Object Repository/page_product_detail/text_product_desc' is visible
+
+2022-10-30 20:16:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:16:50 - [MESSAGE][PASSED] - Element 'Object Repository/page_product_detail/text_product_desc' is visible
+
+2022-10-30 20:16:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_product_detail/button_nego"), 0): Element 'Object Repository/page_product_detail/button_nego' is visible
+
+2022-10-30 20:16:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:16:50 - [MESSAGE][PASSED] - Element 'Object Repository/page_product_detail/button_nego' is visible
+
+2022-10-30 20:16:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_product_detail/button_back"), 0): Element 'Object Repository/page_product_detail/button_back' is visible
+
+2022-10-30 20:16:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:16:50 - [MESSAGE][PASSED] - Element 'Object Repository/page_product_detail/button_back' is visible
+
+2022-10-30 20:16:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_product_detail/textfield_search"), 0): Element 'Object Repository/page_product_detail/textfield_search' is visible
+
+2022-10-30 20:16:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:16:50 - [MESSAGE][PASSED] - Element 'Object Repository/page_product_detail/textfield_search' is visible
+
+2022-10-30 20:16:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/ProductDetail/Verify Content from other seller' successfully
+
+2022-10-30 20:16:50 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2022-10-30 20:16:50 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Product Detail/PRODUCT001 - View product details from other sellers in homepage
+
+2022-10-30 20:16:50 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Product Detail/PRODUCT001 - View product details from other sellers in homepage
+
+2022-10-30 20:16:50 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-10-30 20:16:50 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-30 20:15:55 - [TEST_SUITE][PASSED] - Feature View Product Detail: Test Cases/stepDefinition/Feature Product Detail/PRODUCT001 - View product details from other sellers in homepage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Login" time="63.266" tests="4" failures="0" errors="0">
+   <testsuite name="Feature Login" tests="4" failures="0" errors="0" time="63.266" skipped="0" timestamp="2022-10-30 20:17:43" hostname="Lucifur - Lucifurrr" id="Test Suites/Feature Login">
+      <properties>
+         <property name="deviceName" value="Genymobile Samsung Galaxy Note 10+ (Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Lucifur\\git\\TIM3_KatalonMobile\\Reports\\20221030_201736\\Feature Login\\20221030_201736"/>
+         <property name="logFiles" value="C:\\Users\\Lucifur\\git\\TIM3_KatalonMobile\\Reports\\20221030_201736\\Feature Login\\20221030_201736\\appium.log, C:\\Users\\Lucifur\\git\\TIM3_KatalonMobile\\Reports\\20221030_201736\\Feature Login\\20221030_201736\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lucifur - Lucifurrr"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Samsung Galaxy Note 10+"/>
+         <property name="hostAddress" value="192.168.72.2"/>
+         <property name="deviceManufacturer" value="Genymobile"/>
+         <property name="deviceId" value="192.168.72.106:5555"/>
+         <property name="deviceName" value="Genymobile Samsung Galaxy Note 10+ (Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential" time="20.673" classname="Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential" status="PASSED">
+         <system-out><![CDATA[2022-10-30 20:17:43 - [TEST_CASE][PASSED] - Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential: Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential
+
+2022-10-30 20:17:43 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'C:\Users\Lucifur\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-10-30 20:17:43 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential
+
+2022-10-30 20:17:43 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential
+
+2022-10-30 20:17:43 - [TEST_STEP][PASSED] - launchApp(): null
+
+2022-10-30 20:17:43 - [TEST_STEP][PASSED] - startApplication("Apk/secondhand.apk", true): Started app at: 'C:\Users\Lucifur\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-10-30 20:17:43 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-10-30 20:17:44 - [MESSAGE][INFO] - Appium server started on port 63,663
+
+2022-10-30 20:17:53 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Lucifur\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-10-30 20:17:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navigation/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-10-30 20:17:53 - [TEST_CASE][PASSED] - Test Cases/Pages/Navigation/Tap Akun: Test Cases/Pages/Navigation/Tap Akun
+
+2022-10-30 20:17:53 - [TEST_STEP][PASSED] - tap(findTestObject("navigation_bar/nav_akun"), 0): Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-10-30 20:17:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:17:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-10-30 20:17:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-10-30 20:17:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-30 20:17:54 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-10-30 20:17:55 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-30 20:17:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:17:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-30 20:17:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-30 20:17:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input email"), ["email":"apps1@thomi.anonaddy.me"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-10-30 20:17:56 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input email: Test Cases/Pages/Login/Input email
+
+2022-10-30 20:17:56 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_email"), 0): Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-10-30 20:17:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:17:56 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-10-30 20:17:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_email"), email, 0): Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-10-30 20:17:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:17:58 - [MESSAGE][PASSED] - Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-10-30 20:17:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-10-30 20:17:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input password"), ["password":"123456"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-10-30 20:17:58 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input password: Test Cases/Pages/Login/Input password
+
+2022-10-30 20:17:58 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_password"), 0): Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-10-30 20:17:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:17:58 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-10-30 20:17:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_password"), password, 0): Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-10-30 20:17:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:18:00 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-10-30 20:18:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-10-30 20:18:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-30 20:18:00 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-10-30 20:18:00 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-30 20:18:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:18:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-30 20:18:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-30 20:18:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Verify Content after Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-10-30 20:18:01 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Verify Content after Login: Test Cases/Pages/Login/Verify Content after Login
+
+2022-10-30 20:18:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/title_Akun Saya"), 0): Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-10-30 20:18:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:18:03 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-10-30 20:18:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/image_profile"), 0): Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-10-30 20:18:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:18:03 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-10-30 20:18:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_profile name"), 0): Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-10-30 20:18:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:18:03 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-10-30 20:18:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_phone"), 0): Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-10-30 20:18:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:18:03 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-10-30 20:18:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_email"), 0): Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-10-30 20:18:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:18:03 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-10-30 20:18:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-10-30 20:18:03 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2022-10-30 20:18:03 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential
+
+2022-10-30 20:18:03 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential
+
+2022-10-30 20:18:03 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-10-30 20:18:04 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/stepDefinition/Feature Login/Login002 - login without input username and password" time="12.074" classname="Test Cases/stepDefinition/Feature Login/Login002 - login without input username and password" status="PASSED">
+         <system-out><![CDATA[2022-10-30 20:18:04 - [TEST_CASE][PASSED] - Test Cases/stepDefinition/Feature Login/Login002 - login without input username and password: Test Cases/stepDefinition/Feature Login/Login002 - login without input username and password
+
+2022-10-30 20:18:04 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'C:\Users\Lucifur\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-10-30 20:18:04 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Login/Login002 - login without input username and password
+
+2022-10-30 20:18:04 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Login/Login002 - login without input username and password
+
+2022-10-30 20:18:04 - [TEST_STEP][PASSED] - launchApp(): null
+
+2022-10-30 20:18:04 - [TEST_STEP][PASSED] - startApplication("Apk/secondhand.apk", true): Started app at: 'C:\Users\Lucifur\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-10-30 20:18:04 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-10-30 20:18:05 - [MESSAGE][INFO] - Appium server started on port 63,826
+
+2022-10-30 20:18:12 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Lucifur\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-10-30 20:18:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navigation/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-10-30 20:18:12 - [TEST_CASE][PASSED] - Test Cases/Pages/Navigation/Tap Akun: Test Cases/Pages/Navigation/Tap Akun
+
+2022-10-30 20:18:12 - [TEST_STEP][PASSED] - tap(findTestObject("navigation_bar/nav_akun"), 0): Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-10-30 20:18:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:18:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-10-30 20:18:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-10-30 20:18:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-30 20:18:13 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-10-30 20:18:13 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-30 20:18:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:18:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-30 20:18:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-30 20:18:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-30 20:18:14 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-10-30 20:18:14 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-30 20:18:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:18:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-30 20:18:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-30 20:18:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Read Error Message"), ["message":"Email tidak boleh kosong"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Read Error Message' successfully
+
+2022-10-30 20:18:15 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Read Error Message: Test Cases/Pages/Login/Read Error Message
+
+2022-10-30 20:18:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Login/message error"), message): Actual text and expected text of test object 'Object Repository/Page_Login/message error' are matched.
+
+2022-10-30 20:18:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login/message error' are matched.
+
+2022-10-30 20:18:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Read Error Message' successfully
+
+2022-10-30 20:18:15 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2022-10-30 20:18:15 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Login/Login002 - login without input username and password
+
+2022-10-30 20:18:15 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Login/Login002 - login without input username and password
+
+2022-10-30 20:18:15 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-10-30 20:18:16 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/stepDefinition/Feature Login/Login003 - Login only input email" time="15.399" classname="Test Cases/stepDefinition/Feature Login/Login003 - Login only input email" status="PASSED">
+         <system-out><![CDATA[2022-10-30 20:18:16 - [TEST_CASE][PASSED] - Test Cases/stepDefinition/Feature Login/Login003 - Login only input email: Test Cases/stepDefinition/Feature Login/Login003 - Login only input email
+
+2022-10-30 20:18:16 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'C:\Users\Lucifur\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-10-30 20:18:16 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Login/Login003 - Login only input email
+
+2022-10-30 20:18:16 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Login/Login003 - Login only input email
+
+2022-10-30 20:18:16 - [TEST_STEP][PASSED] - launchApp(): null
+
+2022-10-30 20:18:16 - [TEST_STEP][PASSED] - startApplication("Apk/secondhand.apk", true): Started app at: 'C:\Users\Lucifur\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-10-30 20:18:16 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-10-30 20:18:17 - [MESSAGE][INFO] - Appium server started on port 63,973
+
+2022-10-30 20:18:25 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Lucifur\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-10-30 20:18:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navigation/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-10-30 20:18:25 - [TEST_CASE][PASSED] - Test Cases/Pages/Navigation/Tap Akun: Test Cases/Pages/Navigation/Tap Akun
+
+2022-10-30 20:18:25 - [TEST_STEP][PASSED] - tap(findTestObject("navigation_bar/nav_akun"), 0): Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-10-30 20:18:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:18:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-10-30 20:18:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-10-30 20:18:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-30 20:18:26 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-10-30 20:18:26 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-30 20:18:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:18:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-30 20:18:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-30 20:18:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input email"), ["email":"apps1@thomi.anonaddy.me"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-10-30 20:18:27 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input email: Test Cases/Pages/Login/Input email
+
+2022-10-30 20:18:27 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_email"), 0): Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-10-30 20:18:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:18:28 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-10-30 20:18:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_email"), email, 0): Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-10-30 20:18:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:18:29 - [MESSAGE][PASSED] - Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-10-30 20:18:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-10-30 20:18:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-30 20:18:29 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-10-30 20:18:29 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-30 20:18:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:18:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-30 20:18:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-30 20:18:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Read Error Message"), ["message":"Password tidak boleh kosong"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Read Error Message' successfully
+
+2022-10-30 20:18:30 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Read Error Message: Test Cases/Pages/Login/Read Error Message
+
+2022-10-30 20:18:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Login/message error"), message): Actual text and expected text of test object 'Object Repository/Page_Login/message error' are matched.
+
+2022-10-30 20:18:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login/message error' are matched.
+
+2022-10-30 20:18:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Read Error Message' successfully
+
+2022-10-30 20:18:31 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2022-10-30 20:18:31 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Login/Login003 - Login only input email
+
+2022-10-30 20:18:31 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Login/Login003 - Login only input email
+
+2022-10-30 20:18:31 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-10-30 20:18:31 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/stepDefinition/Feature Login/Login004 - login only input password" time="14.94" classname="Test Cases/stepDefinition/Feature Login/Login004 - login only input password" status="PASSED">
+         <system-out><![CDATA[2022-10-30 20:18:31 - [TEST_CASE][PASSED] - Test Cases/stepDefinition/Feature Login/Login004 - login only input password: Test Cases/stepDefinition/Feature Login/Login004 - login only input password
+
+2022-10-30 20:18:31 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'C:\Users\Lucifur\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-10-30 20:18:31 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Login/Login004 - login only input password
+
+2022-10-30 20:18:31 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Login/Login004 - login only input password
+
+2022-10-30 20:18:31 - [TEST_STEP][PASSED] - launchApp(): null
+
+2022-10-30 20:18:31 - [TEST_STEP][PASSED] - startApplication("Apk/secondhand.apk", true): Started app at: 'C:\Users\Lucifur\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-10-30 20:18:31 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-10-30 20:18:32 - [MESSAGE][INFO] - Appium server started on port 64,115
+
+2022-10-30 20:18:40 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Lucifur\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-10-30 20:18:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navigation/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-10-30 20:18:40 - [TEST_CASE][PASSED] - Test Cases/Pages/Navigation/Tap Akun: Test Cases/Pages/Navigation/Tap Akun
+
+2022-10-30 20:18:40 - [TEST_STEP][PASSED] - tap(findTestObject("navigation_bar/nav_akun"), 0): Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-10-30 20:18:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:18:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-10-30 20:18:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-10-30 20:18:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-30 20:18:42 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-10-30 20:18:42 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-30 20:18:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:18:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-30 20:18:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-30 20:18:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input password"), ["password":"123456"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-10-30 20:18:42 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input password: Test Cases/Pages/Login/Input password
+
+2022-10-30 20:18:42 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_password"), 0): Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-10-30 20:18:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:18:43 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-10-30 20:18:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_password"), password, 0): Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-10-30 20:18:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:18:44 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-10-30 20:18:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-10-30 20:18:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-30 20:18:44 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-10-30 20:18:44 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-30 20:18:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-30 20:18:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-10-30 20:18:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-10-30 20:18:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Read Error Message"), ["message":"Email tidak boleh kosong"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Read Error Message' successfully
+
+2022-10-30 20:18:45 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Read Error Message: Test Cases/Pages/Login/Read Error Message
+
+2022-10-30 20:18:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Login/message error"), message): Actual text and expected text of test object 'Object Repository/Page_Login/message error' are matched.
+
+2022-10-30 20:18:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login/message error' are matched.
+
+2022-10-30 20:18:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Read Error Message' successfully
+
+2022-10-30 20:18:46 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2022-10-30 20:18:46 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Login/Login004 - login only input password
+
+2022-10-30 20:18:46 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Login/Login004 - login only input password
+
+2022-10-30 20:18:46 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-10-30 20:18:46 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-30 20:17:43 - [TEST_SUITE][PASSED] - Feature Login: Test Cases/stepDefinition/Feature Login/Login004 - login only input password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

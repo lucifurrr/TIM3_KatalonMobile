@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature View Product Detail,,,,2022-10-30 20:15:55,2022-10-30 20:16:50,55.814s,PASSED
+,,,,,,,
+Test Cases/stepDefinition/Feature Product Detail/PRODUCT001 - View product details from other sellers in homepage,,,,2022-10-30 20:15:55,2022-10-30 20:16:50,55.608s,PASSED
+Start listener action : beforeTestCase,,,,2022-10-30 20:15:55,2022-10-30 20:16:10,15.347s,PASSED
+"callTestCase(findTestCase(""Pages/homepage/Tap Product Detail""), [:], STOP_ON_FAILURE)",,,,2022-10-30 20:16:10,2022-10-30 20:16:47,36.397s,PASSED
+"callTestCase(findTestCase(""Pages/ProductDetail/Verify Content from other seller""), [:], STOP_ON_FAILURE)",,,,2022-10-30 20:16:47,2022-10-30 20:16:50,3.073s,PASSED
+Start listener action : afterTestCase,,,,2022-10-30 20:16:50,2022-10-30 20:16:50,0.588s,PASSED

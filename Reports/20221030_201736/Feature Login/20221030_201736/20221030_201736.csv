@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Login,,,,2022-10-30 20:17:43,2022-10-30 20:18:46,1m - 3.266s,PASSED
+,,,,,,,
+Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential,,,,2022-10-30 20:17:43,2022-10-30 20:18:04,20.673s,PASSED
+Start listener action : beforeTestCase,,,,2022-10-30 20:17:43,2022-10-30 20:17:53,10.018s,PASSED
+"callTestCase(findTestCase(""Pages/Navigation/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2022-10-30 20:17:53,2022-10-30 20:17:54,1.232s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Tap masuk""), [:], STOP_ON_FAILURE)",,,,2022-10-30 20:17:54,2022-10-30 20:17:55,1.110s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Input email""), [""email"":""apps1@thomi.anonaddy.me""], STOP_ON_FAILURE)",,,,2022-10-30 20:17:55,2022-10-30 20:17:58,2.466s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Input password""), [""password"":""123456""], STOP_ON_FAILURE)",,,,2022-10-30 20:17:58,2022-10-30 20:18:00,2.108s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Tap masuk""), [:], STOP_ON_FAILURE)",,,,2022-10-30 20:18:00,2022-10-30 20:18:01,0.568s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Verify Content after Login""), [:], STOP_ON_FAILURE)",,,,2022-10-30 20:18:01,2022-10-30 20:18:03,2.445s,PASSED
+Start listener action : afterTestCase,,,,2022-10-30 20:18:03,2022-10-30 20:18:04,0.525s,PASSED
+,,,,,,,
+Test Cases/stepDefinition/Feature Login/Login002 - login without input username and password,,,,2022-10-30 20:18:04,2022-10-30 20:18:16,12.074s,PASSED
+Start listener action : beforeTestCase,,,,2022-10-30 20:18:04,2022-10-30 20:18:12,8.444s,PASSED
+"callTestCase(findTestCase(""Pages/Navigation/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2022-10-30 20:18:12,2022-10-30 20:18:13,0.644s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Tap masuk""), [:], STOP_ON_FAILURE)",,,,2022-10-30 20:18:13,2022-10-30 20:18:14,0.698s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Tap masuk""), [:], STOP_ON_FAILURE)",,,,2022-10-30 20:18:14,2022-10-30 20:18:14,0.868s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Read Error Message""), [""message"":""Email tidak boleh kosong""], STOP_ON_FAILURE)",,,,2022-10-30 20:18:14,2022-10-30 20:18:15,0.851s,PASSED
+Start listener action : afterTestCase,,,,2022-10-30 20:18:15,2022-10-30 20:18:16,0.380s,PASSED
+,,,,,,,
+Test Cases/stepDefinition/Feature Login/Login003 - Login only input email,,,,2022-10-30 20:18:16,2022-10-30 20:18:31,15.399s,PASSED
+Start listener action : beforeTestCase,,,,2022-10-30 20:18:16,2022-10-30 20:18:25,8.824s,PASSED
+"callTestCase(findTestCase(""Pages/Navigation/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2022-10-30 20:18:25,2022-10-30 20:18:26,1.393s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Tap masuk""), [:], STOP_ON_FAILURE)",,,,2022-10-30 20:18:26,2022-10-30 20:18:27,0.679s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Input email""), [""email"":""apps1@thomi.anonaddy.me""], STOP_ON_FAILURE)",,,,2022-10-30 20:18:27,2022-10-30 20:18:29,2.512s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Tap masuk""), [:], STOP_ON_FAILURE)",,,,2022-10-30 20:18:29,2022-10-30 20:18:30,0.567s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Read Error Message""), [""message"":""Password tidak boleh kosong""], STOP_ON_FAILURE)",,,,2022-10-30 20:18:30,2022-10-30 20:18:31,0.840s,PASSED
+Start listener action : afterTestCase,,,,2022-10-30 20:18:31,2022-10-30 20:18:31,0.396s,PASSED
+,,,,,,,
+Test Cases/stepDefinition/Feature Login/Login004 - login only input password,,,,2022-10-30 20:18:31,2022-10-30 20:18:46,14.940s,PASSED
+Start listener action : beforeTestCase,,,,2022-10-30 20:18:31,2022-10-30 20:18:40,8.906s,PASSED
+"callTestCase(findTestCase(""Pages/Navigation/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2022-10-30 20:18:40,2022-10-30 20:18:42,1.370s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Tap masuk""), [:], STOP_ON_FAILURE)",,,,2022-10-30 20:18:42,2022-10-30 20:18:42,0.694s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Input password""), [""password"":""123456""], STOP_ON_FAILURE)",,,,2022-10-30 20:18:42,2022-10-30 20:18:44,1.979s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Tap masuk""), [:], STOP_ON_FAILURE)",,,,2022-10-30 20:18:44,2022-10-30 20:18:45,0.565s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Read Error Message""), [""message"":""Email tidak boleh kosong""], STOP_ON_FAILURE)",,,,2022-10-30 20:18:45,2022-10-30 20:18:46,0.860s,PASSED
+Start listener action : afterTestCase,,,,2022-10-30 20:18:46,2022-10-30 20:18:46,0.384s,PASSED
