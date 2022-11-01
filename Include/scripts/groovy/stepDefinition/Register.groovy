@@ -47,12 +47,12 @@ public class Register {
 	public void user_tap_link_daftar() {
 		WebUI.callTestCase(findTestCase('Pages/Register/Tap Link Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Then("User input nama")
 	public void user_input_nama() {
 		WebUI.callTestCase(findTestCase('Pages/Register/Input Nama'), [('nama') : 'Afi Sherma'], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Then("User input unregistered email {string}")
 	public void user_input_unregistered_email(String string) {
 		WebUI.callTestCase(findTestCase('Pages/Register/Input Email'), [('email') : 'pltnmchllgn21@yopmail.com'], FailureHandling.STOP_ON_FAILURE)
@@ -82,8 +82,8 @@ public class Register {
 	public void user_click_daftar_button() {
 		WebUI.callTestCase(findTestCase('Pages/Register/Tap Button Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
-	@Then("User can see pop up message Verfify your email")
+
+	@Then("User can see pop up message Verify your email")
 	public void user_can_see_pop_up_message_Verfify_your_email() {
 		WebUI.callTestCase(findTestCase('Pages/Register/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
@@ -92,10 +92,13 @@ public class Register {
 	@Then("User click daftar button1")
 	public void user_click_daftar_button1() {
 		WebUI.callTestCase(findTestCase('Pages/Register/Tap Button Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
-		Mobile.closeApplication()
-		Mobile.startApplication('Apk/secondhand.apk', true)
 	}
 	
+	@Then("User verify email sudah digunakan")
+	public void user_verify_email_sudah_digunakan() {
+		WebUI.callTestCase(findTestCase('Pages/Register/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
 	//Sign up with name field blank
 	@Then("User make name field blank")
 	public void user_make_name_field_blank() {
@@ -104,8 +107,16 @@ public class Register {
 
 	@Then("User can see pop up message Nama tidak boleh kosong")
 	public void user_can_see_pop_up_message_Nama_tidak_boleh_kosong() {
-		WebUI.callTestCase(findTestCase('Pages/Register/Verify Blank Content'), [:], FailureHandling.STOP_ON_FAILURE)
-		Mobile.closeApplication()
-		Mobile.startApplication('Apk/secondhand.apk', true)
+		WebUI.callTestCase(findTestCase('Pages/Register/Verify Blank Content'), [:], FailureHandling.STOP_ON_FAILURE)	
 	}
+	
+	@Then("User close app")
+	public void user_close_app() {
+		Mobile.closeApplication()
+	}
+	
+	@Then("User open app")
+	public void user_open_app() {
+		Mobile.startApplication('Apk/secondhand.apk', true)
+	}	
 }
