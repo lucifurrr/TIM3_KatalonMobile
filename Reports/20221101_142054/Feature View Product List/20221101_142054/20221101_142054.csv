@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature View Product List,,,,2022-11-01 14:21:02,2022-11-01 14:22:08,1m - 5.611s,PASSED
+,,,,,,,
+Test Cases/stepDefinition/Feature View Product List/ViewProductList001-User Want to See All Product List,,,,2022-11-01 14:21:03,2022-11-01 14:22:08,1m - 4.855s,PASSED
+Start listener action : beforeTestCase,,,,2022-11-01 14:21:03,2022-11-01 14:21:37,33.752s,PASSED
+"callTestCase(findTestCase(""stepDefinition/Feature Login/Login001 - Login with valid credential""), [:], STOP_ON_FAILURE)",,,,2022-11-01 14:21:38,2022-11-01 14:22:01,23.559s,PASSED
+"callTestCase(findTestCase(""Pages/Navigation/Tap Beranda""), [:], STOP_ON_FAILURE)",,,,2022-11-01 14:22:01,2022-11-01 14:22:03,2.082s,PASSED
+"callTestCase(findTestCase(""Pages/ViewProductList/Tap Semua""), [:], STOP_ON_FAILURE)",,,,2022-11-01 14:22:03,2022-11-01 14:22:05,1.763s,PASSED
+Start listener action : afterTestCase,,,,2022-11-01 14:22:05,2022-11-01 14:22:08,2.422s,PASSED

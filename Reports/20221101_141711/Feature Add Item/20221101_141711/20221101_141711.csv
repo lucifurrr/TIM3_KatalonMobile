@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Add Item,,,,2022-11-01 14:17:20,2022-11-01 14:18:37,1m - 17.223s,PASSED
+,,,,,,,
+Test Cases/stepDefinition/Feature Add Item/AddItem001-User Want to Add Item,,,,2022-11-01 14:17:21,2022-11-01 14:18:37,1m - 16.429s,PASSED
+Start listener action : beforeTestCase,,,,2022-11-01 14:17:21,2022-11-01 14:17:56,35.584s,PASSED
+"callTestCase(findTestCase(""stepDefinition/Feature Login/Login001 - Login with valid credential""), [:], STOP_ON_FAILURE)",,,,2022-11-01 14:17:57,2022-11-01 14:18:16,18.999s,PASSED
+"callTestCase(findTestCase(""Pages/Navigation/Tap Beranda""), [:], STOP_ON_FAILURE)",,,,2022-11-01 14:18:16,2022-11-01 14:18:18,1.842s,PASSED
+"callTestCase(findTestCase(""Pages/AddItem/Tap Jual""), [:], STOP_ON_FAILURE)",,,,2022-11-01 14:18:18,2022-11-01 14:18:19,1.400s,PASSED
+"callTestCase(findTestCase(""Pages/AddItem/Input Nama Produk""), [""product_name"":""KACAMATA CAT EYE""], STOP_ON_FAILURE)",,,,2022-11-01 14:18:19,2022-11-01 14:18:23,3.244s,PASSED
+"callTestCase(findTestCase(""Pages/AddItem/Input Harga Produk""), [""product_price"":""15000""], STOP_ON_FAILURE)",,,,2022-11-01 14:18:23,2022-11-01 14:18:25,2.028s,PASSED
+"callTestCase(findTestCase(""Pages/AddItem/Select Kategori""), [:], STOP_ON_FAILURE)",,,,2022-11-01 14:18:25,2022-11-01 14:18:26,1.365s,PASSED
+"callTestCase(findTestCase(""Pages/AddItem/Input Lokasi""), [""product_location"":""Jakarta""], STOP_ON_FAILURE)",,,,2022-11-01 14:18:26,2022-11-01 14:18:28,2.403s,PASSED
+"callTestCase(findTestCase(""Pages/AddItem/Input Deskripsi""), [""product_description"":""Kacamata Kekinian""], STOP_ON_FAILURE)",,,,2022-11-01 14:18:28,2022-11-01 14:18:31,2.513s,PASSED
+"callTestCase(findTestCase(""Pages/AddItem/Upload Foto Produk""), [:], STOP_ON_FAILURE)",,,,2022-11-01 14:18:31,2022-11-01 14:18:33,2.208s,PASSED
+"callTestCase(findTestCase(""Pages/AddItem/Tap Terbitkan""), [:], STOP_ON_FAILURE)",,,,2022-11-01 14:18:33,2022-11-01 14:18:34,1.347s,PASSED
+Start listener action : afterTestCase,,,,2022-11-01 14:18:34,2022-11-01 14:18:37,2.529s,PASSED

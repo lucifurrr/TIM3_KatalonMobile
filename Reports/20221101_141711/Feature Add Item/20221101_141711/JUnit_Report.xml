@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Add Item" time="77.223" tests="1" failures="0" errors="0">
+   <testsuite name="Feature Add Item" tests="1" failures="0" errors="0" time="77.223" skipped="0" timestamp="2022-11-01 14:17:20" hostname="Lenovo - DESKTOP-TFJ29AG" id="Test Suites/Feature Add Item">
+      <properties>
+         <property name="deviceName" value="vivo vivo 1902 (Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\TIM3_KatalonMobile\\Reports\\20221101_141711\\Feature Add Item\\20221101_141711"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\TIM3_KatalonMobile\\Reports\\20221101_141711\\Feature Add Item\\20221101_141711\\appium.log, C:\\Users\\Lenovo\\git\\TIM3_KatalonMobile\\Reports\\20221101_141711\\Feature Add Item\\20221101_141711\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lenovo - DESKTOP-TFJ29AG"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="vivo 1902"/>
+         <property name="hostAddress" value="192.168.1.15"/>
+         <property name="deviceManufacturer" value="vivo"/>
+         <property name="deviceId" value="MNNVLBBY4TKZYL4H"/>
+         <property name="deviceName" value="vivo vivo 1902 (Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/stepDefinition/Feature Add Item/AddItem001-User Want to Add Item" time="76.429" classname="Test Cases/stepDefinition/Feature Add Item/AddItem001-User Want to Add Item" status="PASSED">
+         <system-out><![CDATA[2022-11-01 14:17:21 - [TEST_CASE][PASSED] - Test Cases/stepDefinition/Feature Add Item/AddItem001-User Want to Add Item: Test Cases/stepDefinition/Feature Add Item/AddItem001-User Want to Add Item
+
+2022-11-01 14:17:21 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'C:\Users\Lenovo\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 14:17:21 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Add Item/AddItem001-User Want to Add Item
+
+2022-11-01 14:17:21 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Add Item/AddItem001-User Want to Add Item
+
+2022-11-01 14:17:21 - [TEST_STEP][PASSED] - launchApp(): null
+
+2022-11-01 14:17:21 - [TEST_STEP][PASSED] - startApplication("Apk/secondhand.apk", true): Started app at: 'C:\Users\Lenovo\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 14:17:21 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-11-01 14:17:21 - [MESSAGE][INFO] - User set preference: ['noReset', 'false']
+
+2022-11-01 14:17:21 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-11-01 14:17:21 - [MESSAGE][INFO] - User set preference: ['appWaitforLunch', '30,000']
+
+2022-11-01 14:17:22 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-01 14:17:26 - [MESSAGE][INFO] - Appium server started on port 49,723
+
+2022-11-01 14:17:56 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Lenovo\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 14:17:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("stepDefinition/Feature Login/Login001 - Login with valid credential"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential' successfully
+
+2022-11-01 14:17:57 - [TEST_CASE][PASSED] - Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential: Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential
+
+2022-11-01 14:17:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navigation/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-11-01 14:17:59 - [TEST_CASE][PASSED] - Test Cases/Pages/Navigation/Tap Akun: Test Cases/Pages/Navigation/Tap Akun
+
+2022-11-01 14:17:59 - [TEST_STEP][PASSED] - tap(findTestObject("navigation_bar/nav_akun"), 0): Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-11-01 14:18:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 14:18:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-11-01 14:18:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-11-01 14:18:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 14:18:02 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-11-01 14:18:02 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 14:18:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 14:18:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 14:18:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 14:18:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input email"), ["email":"apps1@thomi.anonaddy.me"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-11-01 14:18:03 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input email: Test Cases/Pages/Login/Input email
+
+2022-11-01 14:18:04 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_email"), 0): Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-11-01 14:18:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 14:18:04 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-11-01 14:18:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_email"), email, 0): Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-11-01 14:18:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 14:18:06 - [MESSAGE][PASSED] - Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-11-01 14:18:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-11-01 14:18:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input password"), ["password":"123456"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-11-01 14:18:06 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input password: Test Cases/Pages/Login/Input password
+
+2022-11-01 14:18:07 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_password"), 0): Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-11-01 14:18:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 14:18:07 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-11-01 14:18:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_password"), password, 0): Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-11-01 14:18:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 14:18:10 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-11-01 14:18:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-11-01 14:18:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 14:18:10 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-11-01 14:18:10 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 14:18:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 14:18:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 14:18:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 14:18:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Verify Content after Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-11-01 14:18:11 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Verify Content after Login: Test Cases/Pages/Login/Verify Content after Login
+
+2022-11-01 14:18:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/title_Akun Saya"), 0): Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-11-01 14:18:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 14:18:12 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-11-01 14:18:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/image_profile"), 0): Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-11-01 14:18:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 14:18:13 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-11-01 14:18:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_profile name"), 0): Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-11-01 14:18:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 14:18:14 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-11-01 14:18:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_phone"), 0): Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-11-01 14:18:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 14:18:16 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-11-01 14:18:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_email"), 0): Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-11-01 14:18:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 14:18:16 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-11-01 14:18:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-11-01 14:18:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential' successfully
+
+2022-11-01 14:18:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navigation/Tap Beranda"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navigation/Tap Beranda' successfully
+
+2022-11-01 14:18:16 - [TEST_CASE][PASSED] - Test Cases/Pages/Navigation/Tap Beranda: Test Cases/Pages/Navigation/Tap Beranda
+
+2022-11-01 14:18:17 - [TEST_STEP][PASSED] - tap(findTestObject("navigation_bar/nav_beranda"), 0): Tapped on element 'Object Repository/navigation_bar/nav_beranda'
+
+2022-11-01 14:18:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 14:18:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/navigation_bar/nav_beranda'
+
+2022-11-01 14:18:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navigation/Tap Beranda' successfully
+
+2022-11-01 14:18:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/AddItem/Tap Jual"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/AddItem/Tap Jual' successfully
+
+2022-11-01 14:18:18 - [TEST_CASE][PASSED] - Test Cases/Pages/AddItem/Tap Jual: Test Cases/Pages/AddItem/Tap Jual
+
+2022-11-01 14:18:19 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/button_Jual"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Homepage/button_Jual'
+
+2022-11-01 14:18:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 14:18:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/button_Jual'
+
+2022-11-01 14:18:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/AddItem/Tap Jual' successfully
+
+2022-11-01 14:18:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/AddItem/Input Nama Produk"), ["product_name":"KACAMATA CAT EYE"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/AddItem/Input Nama Produk' successfully
+
+2022-11-01 14:18:19 - [TEST_CASE][PASSED] - Test Cases/Pages/AddItem/Input Nama Produk: Test Cases/Pages/AddItem/Input Nama Produk
+
+2022-11-01 14:18:20 - [TEST_STEP][PASSED] - setText(findTestObject("Add_Item/textfield_Nama Produk"), product_name, 0): Text 'KACAMATA CAT EYE' has been set to element 'Object Repository/Add_Item/textfield_Nama Produk'
+
+2022-11-01 14:18:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 14:18:23 - [MESSAGE][PASSED] - Text 'KACAMATA CAT EYE' has been set to element 'Object Repository/Add_Item/textfield_Nama Produk'
+
+2022-11-01 14:18:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/AddItem/Input Nama Produk' successfully
+
+2022-11-01 14:18:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/AddItem/Input Harga Produk"), ["product_price":"15000"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/AddItem/Input Harga Produk' successfully
+
+2022-11-01 14:18:23 - [TEST_CASE][PASSED] - Test Cases/Pages/AddItem/Input Harga Produk: Test Cases/Pages/AddItem/Input Harga Produk
+
+2022-11-01 14:18:24 - [TEST_STEP][PASSED] - setText(findTestObject("Add_Item/textfield_Harga Produk"), product_price, 0): Text '15000' has been set to element 'Object Repository/Add_Item/textfield_Harga Produk'
+
+2022-11-01 14:18:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 14:18:25 - [MESSAGE][PASSED] - Text '15000' has been set to element 'Object Repository/Add_Item/textfield_Harga Produk'
+
+2022-11-01 14:18:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/AddItem/Input Harga Produk' successfully
+
+2022-11-01 14:18:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/AddItem/Select Kategori"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/AddItem/Select Kategori' successfully
+
+2022-11-01 14:18:25 - [TEST_CASE][PASSED] - Test Cases/Pages/AddItem/Select Kategori: Test Cases/Pages/AddItem/Select Kategori
+
+2022-11-01 14:18:26 - [TEST_STEP][PASSED] - tap(findTestObject("Add_Item/select_Kategori"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Add_Item/select_Kategori'
+
+2022-11-01 14:18:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 14:18:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add_Item/select_Kategori'
+
+2022-11-01 14:18:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/AddItem/Select Kategori' successfully
+
+2022-11-01 14:18:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/AddItem/Input Lokasi"), ["product_location":"Jakarta"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/AddItem/Input Lokasi' successfully
+
+2022-11-01 14:18:26 - [TEST_CASE][PASSED] - Test Cases/Pages/AddItem/Input Lokasi: Test Cases/Pages/AddItem/Input Lokasi
+
+2022-11-01 14:18:27 - [TEST_STEP][PASSED] - setText(findTestObject("Add_Item/textfield_Lokasi"), product_location, 0): Text 'Jakarta' has been set to element 'Object Repository/Add_Item/textfield_Lokasi'
+
+2022-11-01 14:18:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 14:18:28 - [MESSAGE][PASSED] - Text 'Jakarta' has been set to element 'Object Repository/Add_Item/textfield_Lokasi'
+
+2022-11-01 14:18:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/AddItem/Input Lokasi' successfully
+
+2022-11-01 14:18:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/AddItem/Input Deskripsi"), ["product_description":"Kacamata Kekinian"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/AddItem/Input Deskripsi' successfully
+
+2022-11-01 14:18:28 - [TEST_CASE][PASSED] - Test Cases/Pages/AddItem/Input Deskripsi: Test Cases/Pages/AddItem/Input Deskripsi
+
+2022-11-01 14:18:29 - [TEST_STEP][PASSED] - setText(findTestObject("Add_Item/textarea_Deskripsi"), product_description, 0): Text 'Kacamata Kekinian' has been set to element 'Object Repository/Add_Item/textarea_Deskripsi'
+
+2022-11-01 14:18:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 14:18:31 - [MESSAGE][PASSED] - Text 'Kacamata Kekinian' has been set to element 'Object Repository/Add_Item/textarea_Deskripsi'
+
+2022-11-01 14:18:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/AddItem/Input Deskripsi' successfully
+
+2022-11-01 14:18:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/AddItem/Upload Foto Produk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/AddItem/Upload Foto Produk' successfully
+
+2022-11-01 14:18:31 - [TEST_CASE][PASSED] - Test Cases/Pages/AddItem/Upload Foto Produk: Test Cases/Pages/AddItem/Upload Foto Produk
+
+2022-11-01 14:18:32 - [TEST_STEP][PASSED] - tap(findTestObject("Add_Item/upload_Foto produk"), 0): Tapped on element 'Object Repository/Add_Item/upload_Foto produk'
+
+2022-11-01 14:18:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 14:18:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add_Item/upload_Foto produk'
+
+2022-11-01 14:18:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/AddItem/Upload Foto Produk' successfully
+
+2022-11-01 14:18:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/AddItem/Tap Terbitkan"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/AddItem/Tap Terbitkan' successfully
+
+2022-11-01 14:18:33 - [TEST_CASE][PASSED] - Test Cases/Pages/AddItem/Tap Terbitkan: Test Cases/Pages/AddItem/Tap Terbitkan
+
+2022-11-01 14:18:34 - [TEST_STEP][PASSED] - tap(findTestObject("Add_Item/button_Terbitkan"), 0): Tapped on element 'Object Repository/Add_Item/button_Terbitkan'
+
+2022-11-01 14:18:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 14:18:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add_Item/button_Terbitkan'
+
+2022-11-01 14:18:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/AddItem/Tap Terbitkan' successfully
+
+2022-11-01 14:18:34 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2022-11-01 14:18:34 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Add Item/AddItem001-User Want to Add Item
+
+2022-11-01 14:18:34 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Add Item/AddItem001-User Want to Add Item
+
+2022-11-01 14:18:34 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-11-01 14:18:37 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-01 14:17:20 - [TEST_SUITE][PASSED] - Feature Add Item: Test Cases/stepDefinition/Feature Add Item/AddItem001-User Want to Add Item]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
