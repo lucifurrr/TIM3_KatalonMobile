@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Diminati" time="54.261" tests="1" failures="0" errors="0">
+   <testsuite name="Feature Diminati" tests="1" failures="0" errors="0" time="54.261" skipped="0" timestamp="2022-11-01 15:28:30" hostname="PC - DESKTOP-26A9125" id="Test Suites/Feature Diminati">
+      <properties>
+         <property name="deviceName" value="Xiaomi Mi A1 (Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PC\\git\\TIM3_KatalonMobile\\Reports\\20221101_152822\\Feature Diminati\\20221101_152822"/>
+         <property name="logFiles" value="C:\\Users\\PC\\git\\TIM3_KatalonMobile\\Reports\\20221101_152822\\Feature Diminati\\20221101_152822\\appium.log, C:\\Users\\PC\\git\\TIM3_KatalonMobile\\Reports\\20221101_152822\\Feature Diminati\\20221101_152822\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PC - DESKTOP-26A9125"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Mi A1"/>
+         <property name="hostAddress" value="192.168.18.21"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="32e649f00504"/>
+         <property name="deviceName" value="Xiaomi Mi A1 (Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/stepDefinition/Feature Diminati/DIMINATI001 - User want to see product at diminati menu" time="53.573" classname="Test Cases/stepDefinition/Feature Diminati/DIMINATI001 - User want to see product at diminati menu" status="PASSED">
+         <system-out><![CDATA[2022-11-01 15:28:31 - [TEST_CASE][PASSED] - Test Cases/stepDefinition/Feature Diminati/DIMINATI001 - User want to see product at diminati menu: Test Cases/stepDefinition/Feature Diminati/DIMINATI001 - User want to see product at diminati menu
+
+2022-11-01 15:28:31 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'C:\Users\PC\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 15:28:31 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Diminati/DIMINATI001 - User want to see product at diminati menu
+
+2022-11-01 15:28:31 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Diminati/DIMINATI001 - User want to see product at diminati menu
+
+2022-11-01 15:28:31 - [TEST_STEP][PASSED] - launchApp(): null
+
+2022-11-01 15:28:31 - [TEST_STEP][PASSED] - startApplication("Apk/secondhand.apk", true): Started app at: 'C:\Users\PC\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 15:28:32 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-11-01 15:28:32 - [MESSAGE][INFO] - User set preference: ['noReset', 'false']
+
+2022-11-01 15:28:32 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', '30,000']
+
+2022-11-01 15:28:32 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-11-01 15:28:32 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-01 15:28:35 - [MESSAGE][INFO] - Appium server started on port 56,365
+
+2022-11-01 15:28:59 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2022-11-01 15:28:59 - [MESSAGE][PASSED] - Started app at: 'C:\Users\PC\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 15:29:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("stepDefinition/Feature Login/Login001 - Login with valid credential"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential' successfully
+
+2022-11-01 15:29:00 - [TEST_CASE][PASSED] - Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential: Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential
+
+2022-11-01 15:29:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navigation/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-11-01 15:29:01 - [TEST_CASE][PASSED] - Test Cases/Pages/Navigation/Tap Akun: Test Cases/Pages/Navigation/Tap Akun
+
+2022-11-01 15:29:02 - [TEST_STEP][PASSED] - tap(findTestObject("navigation_bar/nav_akun"), 0): Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-11-01 15:29:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:29:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-11-01 15:29:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-11-01 15:29:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 15:29:04 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-11-01 15:29:05 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 15:29:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:29:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 15:29:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 15:29:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input email"), ["email":"apps1@thomi.anonaddy.me"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-11-01 15:29:06 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input email: Test Cases/Pages/Login/Input email
+
+2022-11-01 15:29:06 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_email"), 0): Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-11-01 15:29:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:29:07 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-11-01 15:29:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_email"), email, 0): Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-11-01 15:29:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:29:09 - [MESSAGE][PASSED] - Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-11-01 15:29:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-11-01 15:29:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input password"), ["password":"123456"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-11-01 15:29:09 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input password: Test Cases/Pages/Login/Input password
+
+2022-11-01 15:29:10 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_password"), 0): Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-11-01 15:29:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:29:10 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-11-01 15:29:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_password"), password, 0): Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-11-01 15:29:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:29:12 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-11-01 15:29:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-11-01 15:29:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 15:29:12 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-11-01 15:29:12 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 15:29:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:29:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 15:29:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 15:29:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Verify Content after Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-11-01 15:29:12 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Verify Content after Login: Test Cases/Pages/Login/Verify Content after Login
+
+2022-11-01 15:29:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/title_Akun Saya"), 0): Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-11-01 15:29:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:29:14 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-11-01 15:29:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/image_profile"), 0): Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-11-01 15:29:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:29:15 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-11-01 15:29:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_profile name"), 0): Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-11-01 15:29:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:29:15 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-11-01 15:29:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_phone"), 0): Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-11-01 15:29:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:29:17 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-11-01 15:29:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_email"), 0): Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-11-01 15:29:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:29:18 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-11-01 15:29:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-11-01 15:29:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential' successfully
+
+2022-11-01 15:29:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navigation/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-11-01 15:29:18 - [TEST_CASE][PASSED] - Test Cases/Pages/Navigation/Tap Akun: Test Cases/Pages/Navigation/Tap Akun
+
+2022-11-01 15:29:18 - [TEST_STEP][PASSED] - tap(findTestObject("navigation_bar/nav_akun"), 0): Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-11-01 15:29:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:29:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-11-01 15:29:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-11-01 15:29:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Diminati/Tap Daftar Jual Saya"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Diminati/Tap Daftar Jual Saya' successfully
+
+2022-11-01 15:29:18 - [TEST_CASE][PASSED] - Test Cases/Pages/Diminati/Tap Daftar Jual Saya: Test Cases/Pages/Diminati/Tap Daftar Jual Saya
+
+2022-11-01 15:29:19 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_daftar jual saya"), 0): Tapped on element 'Object Repository/Page_Akun/button_daftar jual saya'
+
+2022-11-01 15:29:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:29:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_daftar jual saya'
+
+2022-11-01 15:29:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Diminati/Tap Daftar Jual Saya' successfully
+
+2022-11-01 15:29:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Diminati/Tap Diminati"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Diminati/Tap Diminati' successfully
+
+2022-11-01 15:29:20 - [TEST_CASE][PASSED] - Test Cases/Pages/Diminati/Tap Diminati: Test Cases/Pages/Diminati/Tap Diminati
+
+2022-11-01 15:29:21 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Offering/menu_Diminati"), 0): Tapped on element 'Object Repository/Page_Offering/menu_Diminati'
+
+2022-11-01 15:29:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:29:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Offering/menu_Diminati'
+
+2022-11-01 15:29:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Diminati/Tap Diminati' successfully
+
+2022-11-01 15:29:22 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2022-11-01 15:29:22 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Diminati/DIMINATI001 - User want to see product at diminati menu
+
+2022-11-01 15:29:22 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Diminati/DIMINATI001 - User want to see product at diminati menu
+
+2022-11-01 15:29:22 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-11-01 15:29:24 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-01 15:28:30 - [TEST_SUITE][PASSED] - Feature Diminati: Test Cases/stepDefinition/Feature Diminati/DIMINATI001 - User want to see product at diminati menu]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

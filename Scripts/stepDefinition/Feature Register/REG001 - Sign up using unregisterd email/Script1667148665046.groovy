@@ -23,13 +23,15 @@ WebUI.callTestCase(findTestCase('Pages/Login/Tap masuk'), [:], FailureHandling.S
 
 WebUI.callTestCase(findTestCase('Pages/Register/Tap Link Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Register/Input Nama'), [('nama') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Register/Input Nama'), [('nama') : 'Afi Sherma'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Register/Input Email'), [('email') : 'pltnmchllgn13@yopmail.com'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Register/Input Email'), [('email') : 'pltnmchllgn22@yopmail.com'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Register/Input Password'), [('password') : 'Password.123'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Register/Input Nomor HP'), [('nohp') : '08122121123'], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.swipe(48, 1173, 0, 0)
 
 WebUI.callTestCase(findTestCase('Pages/Register/Input Kota'), [('kota') : 'Semarang'], FailureHandling.STOP_ON_FAILURE)
 

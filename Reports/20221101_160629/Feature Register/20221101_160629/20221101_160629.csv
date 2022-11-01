@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Register,,,,2022-11-01 16:06:36,2022-11-01 16:09:55,3m - 18.377s,FAILED
+,,,,,,,
+Test Cases/stepDefinition/Feature Register/REG001 - Sign up using unregisterd email,,,,2022-11-01 16:06:37,2022-11-01 16:08:13,1m - 35.971s,FAILED
+Start listener action : beforeTestCase,,,,2022-11-01 16:06:37,2022-11-01 16:07:04,27.552s,PASSED
+"callTestCase(findTestCase(""Pages/Navigation/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2022-11-01 16:07:05,2022-11-01 16:07:09,3.990s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Tap masuk""), [:], STOP_ON_FAILURE)",,,,2022-11-01 16:07:09,2022-11-01 16:07:12,2.273s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Tap Link Daftar""), [:], STOP_ON_FAILURE)",,,,2022-11-01 16:07:12,2022-11-01 16:07:13,1.253s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Nama""), [""nama"":""Afi Sherma""], STOP_ON_FAILURE)",,,,2022-11-01 16:07:13,2022-11-01 16:07:18,4.625s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Email""), [""email"":""pltnmchllgn22@yopmail.com""], STOP_ON_FAILURE)",,,,2022-11-01 16:07:18,2022-11-01 16:07:22,4.565s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Password""), [""password"":""Password.123""], STOP_ON_FAILURE)",,,,2022-11-01 16:07:22,2022-11-01 16:07:25,3.313s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Nomor HP""), [""nohp"":""08122121123""], STOP_ON_FAILURE)",,,,2022-11-01 16:07:25,2022-11-01 16:07:29,3.488s,PASSED
+"swipe(48, 1173, 0, 0)",,,,2022-11-01 16:07:29,2022-11-01 16:07:30,1.308s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Kota""), [""kota"":""Semarang""], STOP_ON_FAILURE)",,,,2022-11-01 16:07:30,2022-11-01 16:07:34,3.903s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Alamat""), [""alamat"":""Jalan DI Panjaitan 70""], STOP_ON_FAILURE)",,,,2022-11-01 16:07:34,2022-11-01 16:07:37,3.100s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Tap Button Daftar""), [:], STOP_ON_FAILURE)",,,,2022-11-01 16:07:37,2022-11-01 16:07:38,1.294s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Verify Content""), [:], STOP_ON_FAILURE)",,,,2022-11-01 16:07:38,2022-11-01 16:08:11,32.133s,FAILED
+Start listener action : afterTestCase,,,,2022-11-01 16:08:11,2022-11-01 16:08:13,2.162s,PASSED
+,,,,,,,
+Test Cases/stepDefinition/Feature Register/REG002 - Sign up using registered email,,,,2022-11-01 16:08:13,2022-11-01 16:09:00,47.153s,FAILED
+Start listener action : beforeTestCase,,,,2022-11-01 16:08:13,2022-11-01 16:08:33,20.399s,PASSED
+"callTestCase(findTestCase(""Pages/Navigation/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2022-11-01 16:08:34,2022-11-01 16:08:35,1.231s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Tap masuk""), [:], STOP_ON_FAILURE)",,,,2022-11-01 16:08:35,2022-11-01 16:08:36,0.801s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Tap Link Daftar""), [:], STOP_ON_FAILURE)",,,,2022-11-01 16:08:36,2022-11-01 16:08:37,0.920s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Nama""), [""nama"":""Afi Sherma""], STOP_ON_FAILURE)",,,,2022-11-01 16:08:37,2022-11-01 16:08:41,3.720s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Email""), [""email"":""apps1@thomi.anonaddy.me""], STOP_ON_FAILURE)",,,,2022-11-01 16:08:41,2022-11-01 16:08:44,2.780s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Password""), [""password"":""Password.123""], STOP_ON_FAILURE)",,,,2022-11-01 16:08:44,2022-11-01 16:08:46,2.194s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Nomor HP""), [""nohp"":""08122121123""], STOP_ON_FAILURE)",,,,2022-11-01 16:08:46,2022-11-01 16:08:49,3.075s,PASSED
+"swipe(48, 1173, 0, 0)",,,,2022-11-01 16:08:49,2022-11-01 16:08:50,1.233s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Kota""), [""kota"":""Semarang""], STOP_ON_FAILURE)",,,,2022-11-01 16:08:50,2022-11-01 16:08:52,2.097s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Alamat""), [""alamat"":""Jalan DI Panjaitan 70""], STOP_ON_FAILURE)",,,,2022-11-01 16:08:52,2022-11-01 16:08:55,2.629s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Tap Button Daftar""), [:], STOP_ON_FAILURE)",,,,2022-11-01 16:08:55,2022-11-01 16:08:56,0.805s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Verify Content""), [:], STOP_ON_FAILURE)",,,,2022-11-01 16:08:56,2022-11-01 16:08:58,2.335s,FAILED
+Start listener action : afterTestCase,,,,2022-11-01 16:08:58,2022-11-01 16:09:00,2.076s,PASSED
+,,,,,,,
+Test Cases/stepDefinition/Feature Register/REG003 - Sign up without input name,,,,2022-11-01 16:09:00,2022-11-01 16:09:55,54.601s,PASSED
+Start listener action : beforeTestCase,,,,2022-11-01 16:09:00,2022-11-01 16:09:21,20.603s,PASSED
+"callTestCase(findTestCase(""Pages/Navigation/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2022-11-01 16:09:22,2022-11-01 16:09:23,1.404s,PASSED
+"callTestCase(findTestCase(""Pages/Login/Tap masuk""), [:], STOP_ON_FAILURE)",,,,2022-11-01 16:09:23,2022-11-01 16:09:24,0.854s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Tap Link Daftar""), [:], STOP_ON_FAILURE)",,,,2022-11-01 16:09:24,2022-11-01 16:09:25,0.890s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Nama""), [""nama"":""""], STOP_ON_FAILURE)",,,,2022-11-01 16:09:25,2022-11-01 16:09:30,5.068s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Email""), [""email"":""pltnmchllgn14@yopmail.com""], STOP_ON_FAILURE)",,,,2022-11-01 16:09:30,2022-11-01 16:09:33,3.015s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Password""), [""password"":""Password.123""], STOP_ON_FAILURE)",,,,2022-11-01 16:09:33,2022-11-01 16:09:36,3.411s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Nomor HP""), [""nohp"":""08122121123""], STOP_ON_FAILURE)",,,,2022-11-01 16:09:36,2022-11-01 16:09:40,3.974s,PASSED
+"swipe(48, 1173, 0, 0)",,,,2022-11-01 16:09:40,2022-11-01 16:09:42,1.229s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Kota""), [""kota"":""Semarang""], STOP_ON_FAILURE)",,,,2022-11-01 16:09:42,2022-11-01 16:09:45,2.977s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Input Alamat""), [""alamat"":""Jalan DI Panjaitan 70""], STOP_ON_FAILURE)",,,,2022-11-01 16:09:45,2022-11-01 16:09:47,2.438s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Tap Button Daftar""), [:], STOP_ON_FAILURE)",,,,2022-11-01 16:09:47,2022-11-01 16:09:48,0.835s,PASSED
+"callTestCase(findTestCase(""Pages/Register/Verify Blank Content""), [:], STOP_ON_FAILURE)",,,,2022-11-01 16:09:48,2022-11-01 16:09:50,1.833s,PASSED
+delay(3),,,,2022-11-01 16:09:50,2022-11-01 16:09:53,3.031s,PASSED
+Start listener action : afterTestCase,,,,2022-11-01 16:09:53,2022-11-01 16:09:55,1.867s,PASSED

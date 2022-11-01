@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Diminati,,,,2022-11-01 15:28:30,2022-11-01 15:29:24,54.261s,PASSED
+,,,,,,,
+Test Cases/stepDefinition/Feature Diminati/DIMINATI001 - User want to see product at diminati menu,,,,2022-11-01 15:28:31,2022-11-01 15:29:24,53.573s,PASSED
+Start listener action : beforeTestCase,,,,2022-11-01 15:28:31,2022-11-01 15:28:59,28.376s,PASSED
+"callTestCase(findTestCase(""stepDefinition/Feature Login/Login001 - Login with valid credential""), [:], STOP_ON_FAILURE)",,,,2022-11-01 15:29:00,2022-11-01 15:29:18,17.533s,PASSED
+"callTestCase(findTestCase(""Pages/Navigation/Tap Akun""), [:], STOP_ON_FAILURE)",,,,2022-11-01 15:29:18,2022-11-01 15:29:18,0.547s,PASSED
+"callTestCase(findTestCase(""Pages/Diminati/Tap Daftar Jual Saya""), [:], STOP_ON_FAILURE)",,,,2022-11-01 15:29:18,2022-11-01 15:29:20,1.613s,PASSED
+"callTestCase(findTestCase(""Pages/Diminati/Tap Diminati""), [:], STOP_ON_FAILURE)",,,,2022-11-01 15:29:20,2022-11-01 15:29:22,1.926s,PASSED
+Start listener action : afterTestCase,,,,2022-11-01 15:29:22,2022-11-01 15:29:24,2.646s,PASSED

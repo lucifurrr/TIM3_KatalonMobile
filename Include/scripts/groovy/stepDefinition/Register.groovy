@@ -43,16 +43,6 @@ import cucumber.api.java.en.When
 
 public class Register {
 	//Sign up using unregistered email
-	@Then("User input unregistered email {string}")
-	public void user_input_unregistered_email(String string) {
-		WebUI.callTestCase(findTestCase('Pages/Register/Input Email'), [('email') : 'pltnmchllgn16@yopmail.com'], FailureHandling.STOP_ON_FAILURE)
-	}
-	
-	@Then("User can see pop up message Verfify your email")
-	public void user_can_see_pop_up_message_Verfify_your_email() {
-		WebUI.callTestCase(findTestCase('Pages/Register/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-	//Sign up using registered email
 	@Then("User tap link daftar")
 	public void user_tap_link_daftar() {
 		WebUI.callTestCase(findTestCase('Pages/Register/Tap Link Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -63,29 +53,47 @@ public class Register {
 		WebUI.callTestCase(findTestCase('Pages/Register/Input Nama'), [('nama') : 'Afi Sherma'], FailureHandling.STOP_ON_FAILURE)
 	}
 	
+	@Then("User input unregistered email {string}")
+	public void user_input_unregistered_email(String string) {
+		WebUI.callTestCase(findTestCase('Pages/Register/Input Email'), [('email') : 'pltnmchllgn21@yopmail.com'], FailureHandling.STOP_ON_FAILURE)
+	}
+
 	@Then("User input nomor hp")
 	public void user_input_nomor_hp() {
 		WebUI.callTestCase(findTestCase('Pages/Register/Input Nomor HP'), [('nohp') : '08122121123'], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
+	@Then("User scroll down")
+	public void user_scroll_down() {
+		Mobile.swipe(48, 1173, 0, 0)
+	}
+
 	@Then("User input kota")
 	public void user_input_kota() {
 		WebUI.callTestCase(findTestCase('Pages/Register/Input Kota'), [('kota') : 'Semarang'], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Then("User input alamat")
 	public void user_input_alamat() {
 		WebUI.callTestCase(findTestCase('Pages/Register/Input Alamat'), [('alamat') : 'Jalan DI Panjaitan 70'], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Then("User click daftar button")
 	public void user_click_daftar_button() {
 		WebUI.callTestCase(findTestCase('Pages/Register/Tap Button Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 	
-	@Then("User can see pop up message {string}")
-	public void user_can_see_pop_up_message(String string) {
-		WebUI.callTestCase(findTestCase('Pages/Register/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)	
+	@Then("User can see pop up message Verfify your email")
+	public void user_can_see_pop_up_message_Verfify_your_email() {
+		WebUI.callTestCase(findTestCase('Pages/Register/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	//Sign up with registered email
+	@Then("User click daftar button1")
+	public void user_click_daftar_button1() {
+		WebUI.callTestCase(findTestCase('Pages/Register/Tap Button Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.closeApplication()
+		Mobile.startApplication('Apk/secondhand.apk', true)
 	}
 	
 	//Sign up with name field blank
@@ -93,9 +101,11 @@ public class Register {
 	public void user_make_name_field_blank() {
 		WebUI.callTestCase(findTestCase('Pages/Register/Input Nama'), [('nama') : ''], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Then("User can see pop up message Nama tidak boleh kosong")
 	public void user_can_see_pop_up_message_Nama_tidak_boleh_kosong() {
 		WebUI.callTestCase(findTestCase('Pages/Register/Verify Blank Content'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.closeApplication()
+		Mobile.startApplication('Apk/secondhand.apk', true)
 	}
 }

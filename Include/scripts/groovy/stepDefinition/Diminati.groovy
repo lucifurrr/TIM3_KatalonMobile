@@ -44,14 +44,10 @@ import cucumber.api.java.en.When
 
 
 
-class ViewProductDetail {
-	@Then("User tap product")
-	public void user_tap_product() {
-		WebUI.callTestCase(findTestCase('Pages/homepage/Tap Product Detail'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@Then("User view product detail from other sellers in homepage")
-	public void user_view_product_detail_from_other_sellers_in_homepage() {
-		WebUI.callTestCase(findTestCase('Pages/ProductDetail/Verify Content from other seller'), [:], FailureHandling.STOP_ON_FAILURE)
+public class Diminati {
+	@Then("User tap diminati menu")
+	public void user_tap_diminati_menu() {
+		WebUI.callTestCase(findTestCase('Pages/Diminati/Tap Diminati'), [:], FailureHandling.STOP_ON_FAILURE)
+		Mobile.delay(3)
 	}
 }

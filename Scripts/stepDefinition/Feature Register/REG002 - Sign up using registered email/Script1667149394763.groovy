@@ -31,6 +31,8 @@ WebUI.callTestCase(findTestCase('Pages/Register/Input Password'), [('password') 
 
 WebUI.callTestCase(findTestCase('Pages/Register/Input Nomor HP'), [('nohp') : '08122121123'], FailureHandling.STOP_ON_FAILURE)
 
+Mobile.swipe(48, 1173, 0, 0)
+
 WebUI.callTestCase(findTestCase('Pages/Register/Input Kota'), [('kota') : 'Semarang'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Register/Input Alamat'), [('alamat') : 'Jalan DI Panjaitan 70'], FailureHandling.STOP_ON_FAILURE)
