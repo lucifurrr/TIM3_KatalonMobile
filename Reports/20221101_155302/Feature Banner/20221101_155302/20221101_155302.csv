@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Banner,,,,2022-11-01 15:53:05,2022-11-01 15:54:23,1m - 17.750s,PASSED
+,,,,,,,
+Test Cases/stepDefinition/Feature Banner/BANNER001 - Tap and Swipe Image Banner,,,,2022-11-01 15:53:06,2022-11-01 15:53:39,33.575s,PASSED
+Start listener action : beforeTestCase,,,,2022-11-01 15:53:06,2022-11-01 15:53:26,20.120s,PASSED
+"callTestCase(findTestCase(""Pages/homepage/Tap and Swipe Banner""), [:], STOP_ON_FAILURE)",,,,2022-11-01 15:53:26,2022-11-01 15:53:38,11.948s,PASSED
+Start listener action : afterTestCase,,,,2022-11-01 15:53:38,2022-11-01 15:53:39,1.125s,PASSED
+,,,,,,,
+Test Cases/stepDefinition/Feature Banner/BANNER002 - Login to Tap and Swipe Image Banner,,,,2022-11-01 15:53:39,2022-11-01 15:54:23,43.799s,PASSED
+Start listener action : beforeTestCase,,,,2022-11-01 15:53:39,2022-11-01 15:53:56,16.769s,PASSED
+"callTestCase(findTestCase(""stepDefinition/Feature Login/Login001 - Login with valid credential""), [:], STOP_ON_FAILURE)",,,,2022-11-01 15:53:57,2022-11-01 15:54:10,13.752s,PASSED
+"tap(findTestObject(""navigation_bar/nav_beranda""), 0)",,,,2022-11-01 15:54:10,2022-11-01 15:54:11,0.467s,PASSED
+"delay(1.5, STOP_ON_FAILURE)",,,,2022-11-01 15:54:11,2022-11-01 15:54:12,1.520s,PASSED
+"callTestCase(findTestCase(""Pages/homepage/Tap and Swipe Banner""), [:], STOP_ON_FAILURE)",,,,2022-11-01 15:54:12,2022-11-01 15:54:22,10.013s,PASSED
+Start listener action : afterTestCase,,,,2022-11-01 15:54:22,2022-11-01 15:54:23,0.967s,PASSED

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Pesanan Saya,,,,2022-11-01 15:50:45,2022-11-01 15:51:28,43.141s,PASSED
+,,,,,,,
+Test Cases/stepDefinition/Feature Pesanan Saya/PESANAN001 - Click Pesanan Saya,,,,2022-11-01 15:50:46,2022-11-01 15:51:28,42.790s,PASSED
+Start listener action : beforeTestCase,,,,2022-11-01 15:50:46,2022-11-01 15:51:09,23.405s,PASSED
+"callTestCase(findTestCase(""stepDefinition/Feature Login/Login001 - Login with valid credential""), [:], STOP_ON_FAILURE)",,,,2022-11-01 15:51:09,2022-11-01 15:51:21,11.547s,PASSED
+"callTestCase(findTestCase(""Pages/Akun/Tap Pesanan Saya""), [:], STOP_ON_FAILURE)",,,,2022-11-01 15:51:21,2022-11-01 15:51:23,2.272s,PASSED
+"callTestCase(findTestCase(""Pages/Akun/Verifiy Content Pesanan Saya""), [:], STOP_ON_FAILURE)",,,,2022-11-01 15:51:23,2022-11-01 15:51:26,3.143s,PASSED
+"callTestCase(findTestCase(""Pages/Akun/Tap Product Pesanan Saya""), [:], STOP_ON_FAILURE)",,,,2022-11-01 15:51:26,2022-11-01 15:51:27,0.898s,PASSED
+Start listener action : afterTestCase,,,,2022-11-01 15:51:27,2022-11-01 15:51:28,1.229s,PASSED

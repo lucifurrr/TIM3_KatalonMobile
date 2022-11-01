@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Banner" time="77.75" tests="2" failures="0" errors="0">
+   <testsuite name="Feature Banner" tests="2" failures="0" errors="0" time="77.75" skipped="0" timestamp="2022-11-01 15:53:05" hostname="Sandri - LAPTOP-F4TB7VMT" id="Test Suites/Feature Banner">
+      <properties>
+         <property name="deviceName" value="Xiaomi 21081111RG (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Sandri\\git\\TIM3_KatalonMobile\\Reports\\20221101_155302\\Feature Banner\\20221101_155302"/>
+         <property name="logFiles" value="C:\\Users\\Sandri\\git\\TIM3_KatalonMobile\\Reports\\20221101_155302\\Feature Banner\\20221101_155302\\appium.log, C:\\Users\\Sandri\\git\\TIM3_KatalonMobile\\Reports\\20221101_155302\\Feature Banner\\20221101_155302\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sandri - LAPTOP-F4TB7VMT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="21081111RG"/>
+         <property name="hostAddress" value="192.168.1.23"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="ztvkcihezx6d8hlr"/>
+         <property name="deviceName" value="Xiaomi 21081111RG (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/stepDefinition/Feature Banner/BANNER001 - Tap and Swipe Image Banner" time="33.575" classname="Test Cases/stepDefinition/Feature Banner/BANNER001 - Tap and Swipe Image Banner" status="PASSED">
+         <system-out><![CDATA[2022-11-01 15:53:06 - [TEST_CASE][PASSED] - Test Cases/stepDefinition/Feature Banner/BANNER001 - Tap and Swipe Image Banner: Test Cases/stepDefinition/Feature Banner/BANNER001 - Tap and Swipe Image Banner
+
+2022-11-01 15:53:06 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'C:\Users\Sandri\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 15:53:06 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Banner/BANNER001 - Tap and Swipe Image Banner
+
+2022-11-01 15:53:06 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Banner/BANNER001 - Tap and Swipe Image Banner
+
+2022-11-01 15:53:06 - [TEST_STEP][PASSED] - launchApp(): null
+
+2022-11-01 15:53:06 - [TEST_STEP][PASSED] - startApplication("Apk/secondhand.apk", true): Started app at: 'C:\Users\Sandri\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 15:53:06 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-11-01 15:53:06 - [MESSAGE][INFO] - User set preference: ['uninstallAfterClose', 'false']
+
+2022-11-01 15:53:06 - [MESSAGE][INFO] - User set preference: ['noReset', 'false']
+
+2022-11-01 15:53:06 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-11-01 15:53:06 - [MESSAGE][INFO] - User set preference: ['appWaitforLunch', '30,000']
+
+2022-11-01 15:53:09 - [MESSAGE][INFO] - Appium server started on port 62,782
+
+2022-11-01 15:53:26 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Sandri\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 15:53:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/homepage/Tap and Swipe Banner"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/homepage/Tap and Swipe Banner' successfully
+
+2022-11-01 15:53:26 - [TEST_CASE][PASSED] - Test Cases/Pages/homepage/Tap and Swipe Banner: Test Cases/Pages/homepage/Tap and Swipe Banner
+
+2022-11-01 15:53:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Homepage/imageview_Banner"), 5): Element 'Object Repository/Homepage/imageview_Banner' is present
+
+2022-11-01 15:53:28 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/imageview_Banner' is present
+
+2022-11-01 15:53:28 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/imageview_Banner"), 0): Tapped on element 'Object Repository/Homepage/imageview_Banner'
+
+2022-11-01 15:53:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:53:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/imageview_Banner'
+
+2022-11-01 15:53:29 - [TEST_STEP][PASSED] - device_Height = getDeviceHeight(): Current device physical height is 2272
+
+2022-11-01 15:53:29 - [MESSAGE][PASSED] - Current device physical height is 2272
+
+2022-11-01 15:53:29 - [TEST_STEP][PASSED] - device_Width = getDeviceWidth(): Current device physical width is 1080
+
+2022-11-01 15:53:29 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2022-11-01 15:53:29 - [TEST_STEP][PASSED] - startY = device_Height * 0.2: null
+
+2022-11-01 15:53:29 - [TEST_STEP][PASSED] - endY = startY: null
+
+2022-11-01 15:53:29 - [TEST_STEP][PASSED] - startX = device_Width / 1.2: null
+
+2022-11-01 15:53:29 - [TEST_STEP][PASSED] - endX = device_Width / 6: null
+
+2022-11-01 15:53:29 - [TEST_STEP][PASSED] - swipe(startX, startY, endX, endY): Swiped from 900,454 to 180,454
+
+2022-11-01 15:53:30 - [MESSAGE][PASSED] - Swiped from 900,454 to 180,454
+
+2022-11-01 15:53:30 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Homepage/imageview_Banner"), 5): Element 'Object Repository/Homepage/imageview_Banner' is present
+
+2022-11-01 15:53:31 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/imageview_Banner' is present
+
+2022-11-01 15:53:31 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/imageview_Banner"), 0): Tapped on element 'Object Repository/Homepage/imageview_Banner'
+
+2022-11-01 15:53:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:53:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/imageview_Banner'
+
+2022-11-01 15:53:32 - [TEST_STEP][PASSED] - swipe(startX, startY, endX, endY): Swiped from 900,454 to 180,454
+
+2022-11-01 15:53:33 - [MESSAGE][PASSED] - Swiped from 900,454 to 180,454
+
+2022-11-01 15:53:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Homepage/imageview_Banner"), 5): Element 'Object Repository/Homepage/imageview_Banner' is present
+
+2022-11-01 15:53:33 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/imageview_Banner' is present
+
+2022-11-01 15:53:33 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/imageview_Banner"), 0): Tapped on element 'Object Repository/Homepage/imageview_Banner'
+
+2022-11-01 15:53:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:53:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/imageview_Banner'
+
+2022-11-01 15:53:34 - [TEST_STEP][PASSED] - swipe(startX, startY, endX, endY): Swiped from 900,454 to 180,454
+
+2022-11-01 15:53:35 - [MESSAGE][PASSED] - Swiped from 900,454 to 180,454
+
+2022-11-01 15:53:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Homepage/imageview_Banner"), 5): Element 'Object Repository/Homepage/imageview_Banner' is present
+
+2022-11-01 15:53:36 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/imageview_Banner' is present
+
+2022-11-01 15:53:36 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/imageview_Banner"), 0): Tapped on element 'Object Repository/Homepage/imageview_Banner'
+
+2022-11-01 15:53:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:53:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/imageview_Banner'
+
+2022-11-01 15:53:36 - [TEST_STEP][PASSED] - swipe(startX, startY, endX, endY): Swiped from 900,454 to 180,454
+
+2022-11-01 15:53:37 - [MESSAGE][PASSED] - Swiped from 900,454 to 180,454
+
+2022-11-01 15:53:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Homepage/imageview_Banner"), 5): Element 'Object Repository/Homepage/imageview_Banner' is present
+
+2022-11-01 15:53:38 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/imageview_Banner' is present
+
+2022-11-01 15:53:38 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/imageview_Banner"), 0): Tapped on element 'Object Repository/Homepage/imageview_Banner'
+
+2022-11-01 15:53:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:53:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/imageview_Banner'
+
+2022-11-01 15:53:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/homepage/Tap and Swipe Banner' successfully
+
+2022-11-01 15:53:38 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2022-11-01 15:53:38 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Banner/BANNER001 - Tap and Swipe Image Banner
+
+2022-11-01 15:53:38 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Banner/BANNER001 - Tap and Swipe Image Banner
+
+2022-11-01 15:53:38 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-11-01 15:53:39 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/stepDefinition/Feature Banner/BANNER002 - Login to Tap and Swipe Image Banner" time="43.799" classname="Test Cases/stepDefinition/Feature Banner/BANNER002 - Login to Tap and Swipe Image Banner" status="PASSED">
+         <system-out><![CDATA[2022-11-01 15:53:39 - [TEST_CASE][PASSED] - Test Cases/stepDefinition/Feature Banner/BANNER002 - Login to Tap and Swipe Image Banner: Test Cases/stepDefinition/Feature Banner/BANNER002 - Login to Tap and Swipe Image Banner
+
+2022-11-01 15:53:39 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'C:\Users\Sandri\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 15:53:39 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Banner/BANNER002 - Login to Tap and Swipe Image Banner
+
+2022-11-01 15:53:39 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Banner/BANNER002 - Login to Tap and Swipe Image Banner
+
+2022-11-01 15:53:39 - [TEST_STEP][PASSED] - launchApp(): null
+
+2022-11-01 15:53:39 - [TEST_STEP][PASSED] - startApplication("Apk/secondhand.apk", true): Started app at: 'C:\Users\Sandri\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 15:53:39 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-11-01 15:53:39 - [MESSAGE][INFO] - User set preference: ['uninstallAfterClose', 'false']
+
+2022-11-01 15:53:39 - [MESSAGE][INFO] - User set preference: ['noReset', 'false']
+
+2022-11-01 15:53:39 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-11-01 15:53:39 - [MESSAGE][INFO] - User set preference: ['appWaitforLunch', '30,000']
+
+2022-11-01 15:53:41 - [MESSAGE][INFO] - Appium server started on port 63,008
+
+2022-11-01 15:53:56 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Sandri\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 15:53:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("stepDefinition/Feature Login/Login001 - Login with valid credential"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential' successfully
+
+2022-11-01 15:53:57 - [TEST_CASE][PASSED] - Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential: Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential
+
+2022-11-01 15:53:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navigation/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-11-01 15:53:57 - [TEST_CASE][PASSED] - Test Cases/Pages/Navigation/Tap Akun: Test Cases/Pages/Navigation/Tap Akun
+
+2022-11-01 15:53:57 - [TEST_STEP][PASSED] - tap(findTestObject("navigation_bar/nav_akun"), 0): Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-11-01 15:53:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:53:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-11-01 15:53:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-11-01 15:53:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 15:53:58 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-11-01 15:53:59 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 15:53:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:54:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 15:54:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 15:54:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input email"), ["email":"apps1@thomi.anonaddy.me"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-11-01 15:54:00 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input email: Test Cases/Pages/Login/Input email
+
+2022-11-01 15:54:01 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_email"), 0): Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-11-01 15:54:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:54:01 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-11-01 15:54:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_email"), email, 0): Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-11-01 15:54:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:54:03 - [MESSAGE][PASSED] - Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-11-01 15:54:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-11-01 15:54:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input password"), ["password":"123456"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-11-01 15:54:03 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input password: Test Cases/Pages/Login/Input password
+
+2022-11-01 15:54:04 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_password"), 0): Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-11-01 15:54:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:54:04 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-11-01 15:54:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_password"), password, 0): Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-11-01 15:54:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:54:06 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-11-01 15:54:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-11-01 15:54:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 15:54:06 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-11-01 15:54:06 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 15:54:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:54:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 15:54:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 15:54:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Verify Content after Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-11-01 15:54:06 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Verify Content after Login: Test Cases/Pages/Login/Verify Content after Login
+
+2022-11-01 15:54:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/title_Akun Saya"), 0): Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-11-01 15:54:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:54:09 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-11-01 15:54:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/image_profile"), 0): Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-11-01 15:54:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:54:09 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-11-01 15:54:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_profile name"), 0): Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-11-01 15:54:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:54:09 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-11-01 15:54:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_phone"), 0): Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-11-01 15:54:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:54:10 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-11-01 15:54:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_email"), 0): Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-11-01 15:54:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:54:10 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-11-01 15:54:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-11-01 15:54:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential' successfully
+
+2022-11-01 15:54:10 - [TEST_STEP][PASSED] - tap(findTestObject("navigation_bar/nav_beranda"), 0): Tapped on element 'Object Repository/navigation_bar/nav_beranda'
+
+2022-11-01 15:54:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:54:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/navigation_bar/nav_beranda'
+
+2022-11-01 15:54:11 - [TEST_STEP][PASSED] - delay(1.5, STOP_ON_FAILURE): Delayed 1.5 second(s)
+
+2022-11-01 15:54:12 - [MESSAGE][PASSED] - Delayed 1.5 second(s)
+
+2022-11-01 15:54:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/homepage/Tap and Swipe Banner"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/homepage/Tap and Swipe Banner' successfully
+
+2022-11-01 15:54:12 - [TEST_CASE][PASSED] - Test Cases/Pages/homepage/Tap and Swipe Banner: Test Cases/Pages/homepage/Tap and Swipe Banner
+
+2022-11-01 15:54:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Homepage/imageview_Banner"), 5): Element 'Object Repository/Homepage/imageview_Banner' is present
+
+2022-11-01 15:54:13 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/imageview_Banner' is present
+
+2022-11-01 15:54:13 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/imageview_Banner"), 0): Tapped on element 'Object Repository/Homepage/imageview_Banner'
+
+2022-11-01 15:54:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:54:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/imageview_Banner'
+
+2022-11-01 15:54:13 - [TEST_STEP][PASSED] - device_Height = getDeviceHeight(): Current device physical height is 2272
+
+2022-11-01 15:54:13 - [MESSAGE][PASSED] - Current device physical height is 2272
+
+2022-11-01 15:54:13 - [TEST_STEP][PASSED] - device_Width = getDeviceWidth(): Current device physical width is 1080
+
+2022-11-01 15:54:13 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2022-11-01 15:54:13 - [TEST_STEP][PASSED] - startY = device_Height * 0.2: null
+
+2022-11-01 15:54:13 - [TEST_STEP][PASSED] - endY = startY: null
+
+2022-11-01 15:54:13 - [TEST_STEP][PASSED] - startX = device_Width / 1.2: null
+
+2022-11-01 15:54:13 - [TEST_STEP][PASSED] - endX = device_Width / 6: null
+
+2022-11-01 15:54:13 - [TEST_STEP][PASSED] - swipe(startX, startY, endX, endY): Swiped from 900,454 to 180,454
+
+2022-11-01 15:54:15 - [MESSAGE][PASSED] - Swiped from 900,454 to 180,454
+
+2022-11-01 15:54:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Homepage/imageview_Banner"), 5): Element 'Object Repository/Homepage/imageview_Banner' is present
+
+2022-11-01 15:54:15 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/imageview_Banner' is present
+
+2022-11-01 15:54:15 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/imageview_Banner"), 0): Tapped on element 'Object Repository/Homepage/imageview_Banner'
+
+2022-11-01 15:54:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:54:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/imageview_Banner'
+
+2022-11-01 15:54:16 - [TEST_STEP][PASSED] - swipe(startX, startY, endX, endY): Swiped from 900,454 to 180,454
+
+2022-11-01 15:54:17 - [MESSAGE][PASSED] - Swiped from 900,454 to 180,454
+
+2022-11-01 15:54:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Homepage/imageview_Banner"), 5): Element 'Object Repository/Homepage/imageview_Banner' is present
+
+2022-11-01 15:54:17 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/imageview_Banner' is present
+
+2022-11-01 15:54:17 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/imageview_Banner"), 0): Tapped on element 'Object Repository/Homepage/imageview_Banner'
+
+2022-11-01 15:54:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:54:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/imageview_Banner'
+
+2022-11-01 15:54:18 - [TEST_STEP][PASSED] - swipe(startX, startY, endX, endY): Swiped from 900,454 to 180,454
+
+2022-11-01 15:54:19 - [MESSAGE][PASSED] - Swiped from 900,454 to 180,454
+
+2022-11-01 15:54:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Homepage/imageview_Banner"), 5): Element 'Object Repository/Homepage/imageview_Banner' is present
+
+2022-11-01 15:54:19 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/imageview_Banner' is present
+
+2022-11-01 15:54:19 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/imageview_Banner"), 0): Tapped on element 'Object Repository/Homepage/imageview_Banner'
+
+2022-11-01 15:54:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:54:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/imageview_Banner'
+
+2022-11-01 15:54:20 - [TEST_STEP][PASSED] - swipe(startX, startY, endX, endY): Swiped from 900,454 to 180,454
+
+2022-11-01 15:54:21 - [MESSAGE][PASSED] - Swiped from 900,454 to 180,454
+
+2022-11-01 15:54:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Homepage/imageview_Banner"), 5): Element 'Object Repository/Homepage/imageview_Banner' is present
+
+2022-11-01 15:54:21 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/imageview_Banner' is present
+
+2022-11-01 15:54:21 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/imageview_Banner"), 0): Tapped on element 'Object Repository/Homepage/imageview_Banner'
+
+2022-11-01 15:54:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 15:54:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/imageview_Banner'
+
+2022-11-01 15:54:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/homepage/Tap and Swipe Banner' successfully
+
+2022-11-01 15:54:22 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2022-11-01 15:54:22 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Banner/BANNER002 - Login to Tap and Swipe Image Banner
+
+2022-11-01 15:54:22 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Banner/BANNER002 - Login to Tap and Swipe Image Banner
+
+2022-11-01 15:54:22 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-11-01 15:54:23 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-01 15:53:05 - [TEST_SUITE][PASSED] - Feature Banner: Test Cases/stepDefinition/Feature Banner/BANNER002 - Login to Tap and Swipe Image Banner]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
