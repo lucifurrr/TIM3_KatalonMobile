@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EditProfile001 - Ubah nama akun</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2c636e3-1b8b-4d95-b4dc-ee86c8335d32</testCaseGuid>
+</TestCaseEntity>
