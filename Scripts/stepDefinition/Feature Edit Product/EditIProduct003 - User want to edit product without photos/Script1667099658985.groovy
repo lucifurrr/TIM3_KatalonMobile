@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('stepDefinition/Feature Login/Login001 - Login with valid credential'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Navigation/Click Akun'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Navigation/Tap Akun'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Akun/Click Daftar Jual Saya'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -31,12 +31,14 @@ WebUI.callTestCase(findTestCase('Pages/Edit Product/Input Product Name'), [('pro
 
 WebUI.callTestCase(findTestCase('Pages/Edit Product/Input Product Price'), [('product_price') : '11000000'], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/Edit Product/Choose Category'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Pages/Edit Product/Input Product Place'), [('product_place') : 'tangerang'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Edit Product/Input Product Description'), [('product_description') : 'Asus Vivobook 14 Intel iCore 5 2021'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Edit Product/Tap Perbarui Product'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.tapAtPosition(48, 632)
 
-WebUI.callTestCase(findTestCase('Pages/Edit Product/Verify Element Success'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Edit Product/Tap Perbarui Product'), [:], FailureHandling.STOP_ON_FAILURE)
 

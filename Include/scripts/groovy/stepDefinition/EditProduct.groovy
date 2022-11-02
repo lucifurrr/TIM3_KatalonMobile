@@ -45,21 +45,64 @@ import cucumber.api.java.en.When
 
 
 class EditProduct {
-	/**
-	 * The step definitions below match with Katalon sample Gherkin steps
-	 */
-	@Given("I want to write a step with (.*)")
-	def I_want_to_write_a_step_with_name(String name) {
-		println name
+	@Then("User tap product detail")
+	public void user_tap_product_detail() {
+		Mobile.tap(findTestObject('Page Edit Product/card_productDetail'), 0)
 	}
 
-	@When("I check for the (\\d+) in step")
-	def I_check_for_the_value_in_step(int value) {
-		println value
+	@Then("User verify element exist")
+	public void user_verify_element_exist() {
+		WebUI.callTestCase(findTestCase('Pages/Edit Product/Verify Element Visible'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("I verify the (.*) in step")
-	def I_verify_the_status_in_step(String status) {
-		println status
+	@Then("User input product name {string}")
+	public void user_input_product_name(product_name) {
+		WebUI.callTestCase(findTestCase('Pages/Edit Product/Input Product Name'), [('product_name') : product_name], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("User input product price {string}")
+	public void user_input_product_price(product_price) {
+		WebUI.callTestCase(findTestCase('Pages/Edit Product/Input Product Price'), [('product_price') : product_price], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("User choose category")
+	public void user_choose_category() {
+		WebUI.callTestCase(findTestCase('Pages/Edit Product/Choose Category'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("User input product place {string}")
+	public void user_input_product_place(product_place) {
+		WebUI.callTestCase(findTestCase('Pages/Edit Product/Input Product Place'), [('product_place') : product_place], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("User input product description {string}")
+	public void user_input_product_description(product_description) {
+		WebUI.callTestCase(findTestCase('Pages/Edit Product/Input Product Description'), [('product_description') : product_description],
+		FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("User click button change image")
+	public void user_click_button_change_image() {
+		Mobile.tap(findTestObject('Page Edit Product/button_changeImage'), 0)
+	}
+
+	@Then("User tap category")
+	public void user_tap_category() {
+		Mobile.tapAtPosition(48, 632)
+	}
+
+	@Then("User tap perbarui product")
+	public void user_tap_perbarui_product() {
+		WebUI.callTestCase(findTestCase('Pages/Edit Product/Tap Perbarui Product'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("User verify element success")
+	public void user_verify_element_success() {
+		WebUI.callTestCase(findTestCase('Pages/Edit Product/Verify Element Success'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@Then("User verify description empty")
+	public void user_verify_description_empty() {
+		WebUI.callTestCase(findTestCase('Pages/Edit Product/Verify Empty Description'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 }

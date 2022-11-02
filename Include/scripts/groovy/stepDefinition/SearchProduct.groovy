@@ -45,21 +45,23 @@ import cucumber.api.java.en.When
 
 
 class SearchProduct {
-	/**
-	 * The step definitions below match with Katalon sample Gherkin steps
-	 */
-	@Given("I want to write a step with (.*)")
-	def I_want_to_write_a_step_with_name(String name) {
-		println name
+	@Then("User input keyword {string}")
+	public void user_input_keyword(search_keyword) {
+		WebUI.callTestCase(findTestCase('Pages/homepage/Input Search'), [('input_search') : search_keyword], FailureHandling.STOP_ON_FAILURE)
 	}
-
-	@When("I check for the (\\d+) in step")
-	def I_check_for_the_value_in_step(int value) {
-		println value
+	
+	@Then("User wait until element present")
+	public void user_wait_until_element_present() {
+		Mobile.waitForElementPresent(findTestObject('Homepage/product_tango'), 0)
 	}
-
-	@Then("I verify the (.*) in step")
-	def I_verify_the_status_in_step(String status) {
-		println status
+	
+	@Then("User tap in product search")
+	public void user_tap_in_product_search() {
+		WebUI.callTestCase(findTestCase('Pages/homepage/Tap Product Exist'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@Then("User tap in product not in list")
+	public void user_tap_in_product_not_in_list() {
+		WebUI.callTestCase(findTestCase('Pages/homepage/Tap Product Not Exist'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 }

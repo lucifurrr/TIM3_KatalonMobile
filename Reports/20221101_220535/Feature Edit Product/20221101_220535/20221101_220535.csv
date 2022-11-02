@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Edit Product,,,,2022-11-01 22:05:38,2022-11-01 22:07:26,1m - 47.962s,ERROR
+,,,,,,,
+Test Cases/stepDefinition/Feature Edit Product/EditIProduct001 - User want to edit product with valid credential,,,,2022-11-01 22:05:38,2022-11-01 22:06:09,31.048s,ERROR
+Start listener action : beforeTestCase,,,,2022-11-01 22:05:38,2022-11-01 22:05:54,15.835s,PASSED
+"callTestCase(findTestCase(""stepDefinition/Feature Login/Login001 - Login with valid credential""), [:], STOP_ON_FAILURE)",,,,2022-11-01 22:05:54,2022-11-01 22:06:08,13.228s,PASSED
+"callTestCase(findTestCase(""Pages/Navigation/Click Akun""), [:], STOP_ON_FAILURE)",,,,2022-11-01 22:06:08,2022-11-01 22:06:08,0.030s,ERROR
+Start listener action : afterTestCase,,,,2022-11-01 22:06:08,2022-11-01 22:06:09,1.629s,PASSED
+,,,,,,,
+Test Cases/stepDefinition/Feature Edit Product/EditIProduct002 - User want to edit product without fill product description,,,,2022-11-01 22:06:09,2022-11-01 22:06:35,25.497s,ERROR
+Start listener action : beforeTestCase,,,,2022-11-01 22:06:09,2022-11-01 22:06:22,12.772s,PASSED
+"callTestCase(findTestCase(""stepDefinition/Feature Login/Login001 - Login with valid credential""), [:], STOP_ON_FAILURE)",,,,2022-11-01 22:06:22,2022-11-01 22:06:33,10.852s,PASSED
+"callTestCase(findTestCase(""Pages/Navigation/Click Akun""), [:], STOP_ON_FAILURE)",,,,2022-11-01 22:06:33,2022-11-01 22:06:33,0.000s,ERROR
+Start listener action : afterTestCase,,,,2022-11-01 22:06:33,2022-11-01 22:06:35,1.572s,PASSED
+,,,,,,,
+Test Cases/stepDefinition/Feature Edit Product/EditIProduct003 - User want to edit product without photos,,,,2022-11-01 22:06:35,2022-11-01 22:07:00,25.222s,ERROR
+Start listener action : beforeTestCase,,,,2022-11-01 22:06:35,2022-11-01 22:06:47,12.512s,PASSED
+"callTestCase(findTestCase(""stepDefinition/Feature Login/Login001 - Login with valid credential""), [:], STOP_ON_FAILURE)",,,,2022-11-01 22:06:47,2022-11-01 22:06:58,10.948s,PASSED
+"callTestCase(findTestCase(""Pages/Navigation/Click Akun""), [:], STOP_ON_FAILURE)",,,,2022-11-01 22:06:58,2022-11-01 22:06:58,0.000s,ERROR
+Start listener action : afterTestCase,,,,2022-11-01 22:06:58,2022-11-01 22:07:00,1.496s,PASSED
+,,,,,,,
+Test Cases/stepDefinition/Feature Edit Product/EditIProduct004 - User want to edit product without select category,,,,2022-11-01 22:07:00,2022-11-01 22:07:26,25.902s,ERROR
+Start listener action : beforeTestCase,,,,2022-11-01 22:07:00,2022-11-01 22:07:13,12.947s,PASSED
+"callTestCase(findTestCase(""stepDefinition/Feature Login/Login001 - Login with valid credential""), [:], STOP_ON_FAILURE)",,,,2022-11-01 22:07:13,2022-11-01 22:07:24,11.193s,PASSED
+"callTestCase(findTestCase(""Pages/Navigation/Click Akun""), [:], STOP_ON_FAILURE)",,,,2022-11-01 22:07:24,2022-11-01 22:07:24,0.000s,ERROR
+Start listener action : afterTestCase,,,,2022-11-01 22:07:24,2022-11-01 22:07:26,1.499s,PASSED

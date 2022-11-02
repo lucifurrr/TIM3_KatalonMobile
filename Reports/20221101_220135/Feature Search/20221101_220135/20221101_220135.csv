@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Search,,,,2022-11-01 22:01:39,2022-11-01 22:03:21,1m - 42.350s,FAILED
+,,,,,,,
+Test Cases/stepDefinition/Feature Search/SEARCH001 - User want to search for a product already on the display,,,,2022-11-01 22:01:39,2022-11-01 22:02:48,1m - 9.004s,FAILED
+Start listener action : beforeTestCase,,,,2022-11-01 22:01:39,2022-11-01 22:01:57,17.440s,PASSED
+"callTestCase(findTestCase(""stepDefinition/Feature Login/Login001 - Login with valid credential""), [:], STOP_ON_FAILURE)",,,,2022-11-01 22:01:57,2022-11-01 22:02:08,11.505s,PASSED
+"callTestCase(findTestCase(""Pages/Navigation/Tap Beranda""), [:], STOP_ON_FAILURE)",,,,2022-11-01 22:02:08,2022-11-01 22:02:09,0.696s,PASSED
+"callTestCase(findTestCase(""Pages/homepage/Input Search""), [""input_search"":""tango""], STOP_ON_FAILURE)",,,,2022-11-01 22:02:09,2022-11-01 22:02:12,2.740s,PASSED
+"waitForElementPresent(findTestObject(""Homepage/product_tango""), 0)",,,,2022-11-01 22:02:12,2022-11-01 22:02:13,1.472s,PASSED
+"callTestCase(findTestCase(""Pages/homepage/Tap Product Exist""), [:], STOP_ON_FAILURE)",,,,2022-11-01 22:02:13,2022-11-01 22:02:46,32.938s,FAILED
+Start listener action : afterTestCase,,,,2022-11-01 22:02:46,2022-11-01 22:02:48,1.922s,PASSED
+,,,,,,,
+Test Cases/stepDefinition/Feature Search/SEARCH002 - User want to search for a product not in the product list,,,,2022-11-01 22:02:48,2022-11-01 22:03:21,33.051s,FAILED
+Start listener action : beforeTestCase,,,,2022-11-01 22:02:48,2022-11-01 22:03:02,14.073s,PASSED
+"callTestCase(findTestCase(""stepDefinition/Feature Login/Login001 - Login with valid credential""), [:], STOP_ON_FAILURE)",,,,2022-11-01 22:03:03,2022-11-01 22:03:13,10.300s,PASSED
+"callTestCase(findTestCase(""Pages/Navigation/Tap Beranda""), [:], STOP_ON_FAILURE)",,,,2022-11-01 22:03:13,2022-11-01 22:03:13,0.427s,PASSED
+"callTestCase(findTestCase(""Pages/homepage/Input Search""), [""input_search"":""potato""], STOP_ON_FAILURE)",,,,2022-11-01 22:03:13,2022-11-01 22:03:17,3.739s,PASSED
+"callTestCase(findTestCase(""Pages/homepage/Tap Product Not Exist""), [:], STOP_ON_FAILURE)",,,,2022-11-01 22:03:17,2022-11-01 22:03:20,2.649s,FAILED
+Start listener action : afterTestCase,,,,2022-11-01 22:03:20,2022-11-01 22:03:21,1.553s,PASSED

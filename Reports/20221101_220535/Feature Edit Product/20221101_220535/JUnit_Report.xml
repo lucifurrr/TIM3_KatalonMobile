@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Edit Product" time="107.962" tests="4" failures="0" errors="4">
+   <testsuite name="Feature Edit Product" tests="4" failures="0" errors="4" time="107.962" skipped="0" timestamp="2022-11-01 22:05:38" hostname="ASUS - VivoBookX421EAYB" id="Test Suites/Feature Edit Product">
+      <properties>
+         <property name="deviceName" value="realme RMX3472 (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\TIM3_KatalonMobile\\Reports\\20221101_220535\\Feature Edit Product\\20221101_220535"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\TIM3_KatalonMobile\\Reports\\20221101_220535\\Feature Edit Product\\20221101_220535\\appium.log, C:\\Users\\ASUS\\git\\TIM3_KatalonMobile\\Reports\\20221101_220535\\Feature Edit Product\\20221101_220535\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - VivoBookX421EAYB"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="RMX3472"/>
+         <property name="hostAddress" value="192.168.8.155"/>
+         <property name="deviceManufacturer" value="realme"/>
+         <property name="deviceId" value="178d063b"/>
+         <property name="deviceName" value="realme RMX3472 (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/stepDefinition/Feature Edit Product/EditIProduct001 - User want to edit product with valid credential" time="31.048" classname="Test Cases/stepDefinition/Feature Edit Product/EditIProduct001 - User want to edit product with valid credential" status="ERROR">
+         <error type="ERROR" message="Test Cases/stepDefinition/Feature Edit Product/EditIProduct001 - User want to edit product with valid credential FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Pages/Navigation/Click Akun'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at EditIProduct001 - User want to edit product with valid credential.run(EditIProduct001 - User want to edit product with valid credential:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667315135181.run(TempTestSuite1667315135181.groovy:36)
+"/>
+         <system-out><![CDATA[2022-11-01 22:05:38 - [TEST_CASE][ERROR] - Test Cases/stepDefinition/Feature Edit Product/EditIProduct001 - User want to edit product with valid credential: Test Cases/stepDefinition/Feature Edit Product/EditIProduct001 - User want to edit product with valid credential FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Pages/Navigation/Click Akun'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at EditIProduct001 - User want to edit product with valid credential.run(EditIProduct001 - User want to edit product with valid credential:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667315135181.run(TempTestSuite1667315135181.groovy:36)
+
+
+2022-11-01 22:05:38 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'C:\Users\ASUS\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 22:05:38 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Edit Product/EditIProduct001 - User want to edit product with valid credential
+
+2022-11-01 22:05:38 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Edit Product/EditIProduct001 - User want to edit product with valid credential
+
+2022-11-01 22:05:38 - [TEST_STEP][PASSED] - launchApp(): null
+
+2022-11-01 22:05:38 - [TEST_STEP][PASSED] - startApplication("Apk/secondhand.apk", true): Started app at: 'C:\Users\ASUS\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 22:05:38 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-11-01 22:05:38 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-11-01 22:05:38 - [MESSAGE][INFO] - User set preference: ['appWaitforLunch', 'false']
+
+2022-11-01 22:05:39 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-01 22:05:40 - [MESSAGE][INFO] - Appium server started on port 65,374
+
+2022-11-01 22:05:54 - [MESSAGE][PASSED] - Started app at: 'C:\Users\ASUS\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 22:05:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("stepDefinition/Feature Login/Login001 - Login with valid credential"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential' successfully
+
+2022-11-01 22:05:54 - [TEST_CASE][PASSED] - Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential: Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential
+
+2022-11-01 22:05:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navigation/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-11-01 22:05:55 - [TEST_CASE][PASSED] - Test Cases/Pages/Navigation/Tap Akun: Test Cases/Pages/Navigation/Tap Akun
+
+2022-11-01 22:05:55 - [TEST_STEP][PASSED] - tap(findTestObject("navigation_bar/nav_akun"), 0): Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-11-01 22:05:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:05:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-11-01 22:05:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-11-01 22:05:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:05:57 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-11-01 22:05:57 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:05:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:05:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:05:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:05:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input email"), ["email":"apps1@thomi.anonaddy.me"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-11-01 22:05:58 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input email: Test Cases/Pages/Login/Input email
+
+2022-11-01 22:05:58 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_email"), 0): Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-11-01 22:05:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:05:58 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-11-01 22:05:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_email"), email, 0): Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-11-01 22:05:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:00 - [MESSAGE][PASSED] - Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-11-01 22:06:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-11-01 22:06:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input password"), ["password":"123456"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-11-01 22:06:00 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input password: Test Cases/Pages/Login/Input password
+
+2022-11-01 22:06:00 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_password"), 0): Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-11-01 22:06:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:01 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-11-01 22:06:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_password"), password, 0): Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-11-01 22:06:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:03 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-11-01 22:06:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-11-01 22:06:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:06:03 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-11-01 22:06:03 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:06:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:06:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:06:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Verify Content after Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-11-01 22:06:04 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Verify Content after Login: Test Cases/Pages/Login/Verify Content after Login
+
+2022-11-01 22:06:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/title_Akun Saya"), 0): Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-11-01 22:06:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:05 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-11-01 22:06:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/image_profile"), 0): Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-11-01 22:06:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:06 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-11-01 22:06:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_profile name"), 0): Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-11-01 22:06:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:07 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-11-01 22:06:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_phone"), 0): Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-11-01 22:06:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:07 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-11-01 22:06:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_email"), 0): Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-11-01 22:06:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:08 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-11-01 22:06:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-11-01 22:06:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential' successfully
+
+2022-11-01 22:06:08 - [TEST_STEP][ERROR] - callTestCase(findTestCase("Pages/Navigation/Click Akun"), [:], STOP_ON_FAILURE): Test Cases/stepDefinition/Feature Edit Product/EditIProduct001 - User want to edit product with valid credential FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Pages/Navigation/Click Akun'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at EditIProduct001 - User want to edit product with valid credential.run(EditIProduct001 - User want to edit product with valid credential:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667315135181.run(TempTestSuite1667315135181.groovy:36)
+
+
+2022-11-01 22:06:08 - [MESSAGE][ERROR] - Test Cases/stepDefinition/Feature Edit Product/EditIProduct001 - User want to edit product with valid credential FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Pages/Navigation/Click Akun'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at EditIProduct001 - User want to edit product with valid credential.run(EditIProduct001 - User want to edit product with valid credential:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667315135181.run(TempTestSuite1667315135181.groovy:36)
+
+
+2022-11-01 22:06:08 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2022-11-01 22:06:08 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Edit Product/EditIProduct001 - User want to edit product with valid credential
+
+2022-11-01 22:06:08 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Edit Product/EditIProduct001 - User want to edit product with valid credential
+
+2022-11-01 22:06:08 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-11-01 22:06:09 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[2022-11-01 22:05:38 - [TEST_CASE][ERROR] - Test Cases/stepDefinition/Feature Edit Product/EditIProduct001 - User want to edit product with valid credential: Test Cases/stepDefinition/Feature Edit Product/EditIProduct001 - User want to edit product with valid credential FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Pages/Navigation/Click Akun'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at EditIProduct001 - User want to edit product with valid credential.run(EditIProduct001 - User want to edit product with valid credential:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667315135181.run(TempTestSuite1667315135181.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/stepDefinition/Feature Edit Product/EditIProduct002 - User want to edit product without fill product description" time="25.497" classname="Test Cases/stepDefinition/Feature Edit Product/EditIProduct002 - User want to edit product without fill product description" status="ERROR">
+         <error type="ERROR" message="Test Cases/stepDefinition/Feature Edit Product/EditIProduct002 - User want to edit product without fill product description FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Pages/Navigation/Click Akun'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at EditIProduct002 - User want to edit product without fill product description.run(EditIProduct002 - User want to edit product without fill product description:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667315135181.run(TempTestSuite1667315135181.groovy:36)
+"/>
+         <system-out><![CDATA[2022-11-01 22:06:09 - [TEST_CASE][ERROR] - Test Cases/stepDefinition/Feature Edit Product/EditIProduct002 - User want to edit product without fill product description: Test Cases/stepDefinition/Feature Edit Product/EditIProduct002 - User want to edit product without fill product description FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Pages/Navigation/Click Akun'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at EditIProduct002 - User want to edit product without fill product description.run(EditIProduct002 - User want to edit product without fill product description:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667315135181.run(TempTestSuite1667315135181.groovy:36)
+
+
+2022-11-01 22:06:09 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'C:\Users\ASUS\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 22:06:09 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Edit Product/EditIProduct002 - User want to edit product without fill product description
+
+2022-11-01 22:06:09 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Edit Product/EditIProduct002 - User want to edit product without fill product description
+
+2022-11-01 22:06:09 - [TEST_STEP][PASSED] - launchApp(): null
+
+2022-11-01 22:06:09 - [TEST_STEP][PASSED] - startApplication("Apk/secondhand.apk", true): Started app at: 'C:\Users\ASUS\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 22:06:09 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-11-01 22:06:09 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-11-01 22:06:09 - [MESSAGE][INFO] - User set preference: ['appWaitforLunch', 'false']
+
+2022-11-01 22:06:09 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-01 22:06:11 - [MESSAGE][INFO] - Appium server started on port 65,497
+
+2022-11-01 22:06:22 - [MESSAGE][PASSED] - Started app at: 'C:\Users\ASUS\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 22:06:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("stepDefinition/Feature Login/Login001 - Login with valid credential"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential' successfully
+
+2022-11-01 22:06:22 - [TEST_CASE][PASSED] - Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential: Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential
+
+2022-11-01 22:06:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navigation/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-11-01 22:06:22 - [TEST_CASE][PASSED] - Test Cases/Pages/Navigation/Tap Akun: Test Cases/Pages/Navigation/Tap Akun
+
+2022-11-01 22:06:22 - [TEST_STEP][PASSED] - tap(findTestObject("navigation_bar/nav_akun"), 0): Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-11-01 22:06:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-11-01 22:06:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-11-01 22:06:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:06:23 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-11-01 22:06:24 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:06:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:06:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:06:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input email"), ["email":"apps1@thomi.anonaddy.me"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-11-01 22:06:24 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input email: Test Cases/Pages/Login/Input email
+
+2022-11-01 22:06:24 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_email"), 0): Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-11-01 22:06:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:25 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-11-01 22:06:25 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_email"), email, 0): Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-11-01 22:06:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:26 - [MESSAGE][PASSED] - Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-11-01 22:06:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-11-01 22:06:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input password"), ["password":"123456"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-11-01 22:06:26 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input password: Test Cases/Pages/Login/Input password
+
+2022-11-01 22:06:26 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_password"), 0): Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-11-01 22:06:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:27 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-11-01 22:06:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_password"), password, 0): Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-11-01 22:06:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:29 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-11-01 22:06:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-11-01 22:06:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:06:29 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-11-01 22:06:29 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:06:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:06:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:06:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Verify Content after Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-11-01 22:06:31 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Verify Content after Login: Test Cases/Pages/Login/Verify Content after Login
+
+2022-11-01 22:06:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/title_Akun Saya"), 0): Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-11-01 22:06:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:32 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-11-01 22:06:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/image_profile"), 0): Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-11-01 22:06:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:32 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-11-01 22:06:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_profile name"), 0): Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-11-01 22:06:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:32 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-11-01 22:06:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_phone"), 0): Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-11-01 22:06:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:33 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-11-01 22:06:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_email"), 0): Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-11-01 22:06:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:33 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-11-01 22:06:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-11-01 22:06:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential' successfully
+
+2022-11-01 22:06:33 - [TEST_STEP][ERROR] - callTestCase(findTestCase("Pages/Navigation/Click Akun"), [:], STOP_ON_FAILURE): Test Cases/stepDefinition/Feature Edit Product/EditIProduct002 - User want to edit product without fill product description FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Pages/Navigation/Click Akun'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at EditIProduct002 - User want to edit product without fill product description.run(EditIProduct002 - User want to edit product without fill product description:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667315135181.run(TempTestSuite1667315135181.groovy:36)
+
+
+2022-11-01 22:06:33 - [MESSAGE][ERROR] - Test Cases/stepDefinition/Feature Edit Product/EditIProduct002 - User want to edit product without fill product description FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Pages/Navigation/Click Akun'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at EditIProduct002 - User want to edit product without fill product description.run(EditIProduct002 - User want to edit product without fill product description:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667315135181.run(TempTestSuite1667315135181.groovy:36)
+
+
+2022-11-01 22:06:33 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2022-11-01 22:06:33 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Edit Product/EditIProduct002 - User want to edit product without fill product description
+
+2022-11-01 22:06:33 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Edit Product/EditIProduct002 - User want to edit product without fill product description
+
+2022-11-01 22:06:33 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-11-01 22:06:35 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[2022-11-01 22:06:09 - [TEST_CASE][ERROR] - Test Cases/stepDefinition/Feature Edit Product/EditIProduct002 - User want to edit product without fill product description: Test Cases/stepDefinition/Feature Edit Product/EditIProduct002 - User want to edit product without fill product description FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Pages/Navigation/Click Akun'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at EditIProduct002 - User want to edit product without fill product description.run(EditIProduct002 - User want to edit product without fill product description:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667315135181.run(TempTestSuite1667315135181.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/stepDefinition/Feature Edit Product/EditIProduct003 - User want to edit product without photos" time="25.222" classname="Test Cases/stepDefinition/Feature Edit Product/EditIProduct003 - User want to edit product without photos" status="ERROR">
+         <error type="ERROR" message="Test Cases/stepDefinition/Feature Edit Product/EditIProduct003 - User want to edit product without photos FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Pages/Navigation/Click Akun'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at EditIProduct003 - User want to edit product without photos.run(EditIProduct003 - User want to edit product without photos:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667315135181.run(TempTestSuite1667315135181.groovy:36)
+"/>
+         <system-out><![CDATA[2022-11-01 22:06:35 - [TEST_CASE][ERROR] - Test Cases/stepDefinition/Feature Edit Product/EditIProduct003 - User want to edit product without photos: Test Cases/stepDefinition/Feature Edit Product/EditIProduct003 - User want to edit product without photos FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Pages/Navigation/Click Akun'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at EditIProduct003 - User want to edit product without photos.run(EditIProduct003 - User want to edit product without photos:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667315135181.run(TempTestSuite1667315135181.groovy:36)
+
+
+2022-11-01 22:06:35 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'C:\Users\ASUS\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 22:06:35 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Edit Product/EditIProduct003 - User want to edit product without photos
+
+2022-11-01 22:06:35 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Edit Product/EditIProduct003 - User want to edit product without photos
+
+2022-11-01 22:06:35 - [TEST_STEP][PASSED] - launchApp(): null
+
+2022-11-01 22:06:35 - [TEST_STEP][PASSED] - startApplication("Apk/secondhand.apk", true): Started app at: 'C:\Users\ASUS\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 22:06:35 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-11-01 22:06:35 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-11-01 22:06:35 - [MESSAGE][INFO] - User set preference: ['appWaitforLunch', 'false']
+
+2022-11-01 22:06:35 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-01 22:06:37 - [MESSAGE][INFO] - Appium server started on port 49,237
+
+2022-11-01 22:06:47 - [MESSAGE][PASSED] - Started app at: 'C:\Users\ASUS\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 22:06:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("stepDefinition/Feature Login/Login001 - Login with valid credential"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential' successfully
+
+2022-11-01 22:06:48 - [TEST_CASE][PASSED] - Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential: Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential
+
+2022-11-01 22:06:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navigation/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-11-01 22:06:48 - [TEST_CASE][PASSED] - Test Cases/Pages/Navigation/Tap Akun: Test Cases/Pages/Navigation/Tap Akun
+
+2022-11-01 22:06:48 - [TEST_STEP][PASSED] - tap(findTestObject("navigation_bar/nav_akun"), 0): Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-11-01 22:06:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-11-01 22:06:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-11-01 22:06:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:06:49 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-11-01 22:06:49 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:06:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:06:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:06:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input email"), ["email":"apps1@thomi.anonaddy.me"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-11-01 22:06:50 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input email: Test Cases/Pages/Login/Input email
+
+2022-11-01 22:06:50 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_email"), 0): Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-11-01 22:06:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:51 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-11-01 22:06:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_email"), email, 0): Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-11-01 22:06:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:52 - [MESSAGE][PASSED] - Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-11-01 22:06:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-11-01 22:06:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input password"), ["password":"123456"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-11-01 22:06:52 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input password: Test Cases/Pages/Login/Input password
+
+2022-11-01 22:06:52 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_password"), 0): Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-11-01 22:06:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:53 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-11-01 22:06:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_password"), password, 0): Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-11-01 22:06:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:55 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-11-01 22:06:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-11-01 22:06:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:06:55 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-11-01 22:06:55 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:06:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:06:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:06:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Verify Content after Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-11-01 22:06:55 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Verify Content after Login: Test Cases/Pages/Login/Verify Content after Login
+
+2022-11-01 22:06:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/title_Akun Saya"), 0): Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-11-01 22:06:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:57 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-11-01 22:06:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/image_profile"), 0): Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-11-01 22:06:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:57 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-11-01 22:06:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_profile name"), 0): Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-11-01 22:06:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:58 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-11-01 22:06:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_phone"), 0): Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-11-01 22:06:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:58 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-11-01 22:06:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_email"), 0): Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-11-01 22:06:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:06:58 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-11-01 22:06:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-11-01 22:06:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential' successfully
+
+2022-11-01 22:06:58 - [TEST_STEP][ERROR] - callTestCase(findTestCase("Pages/Navigation/Click Akun"), [:], STOP_ON_FAILURE): Test Cases/stepDefinition/Feature Edit Product/EditIProduct003 - User want to edit product without photos FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Pages/Navigation/Click Akun'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at EditIProduct003 - User want to edit product without photos.run(EditIProduct003 - User want to edit product without photos:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667315135181.run(TempTestSuite1667315135181.groovy:36)
+
+
+2022-11-01 22:06:58 - [MESSAGE][ERROR] - Test Cases/stepDefinition/Feature Edit Product/EditIProduct003 - User want to edit product without photos FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Pages/Navigation/Click Akun'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at EditIProduct003 - User want to edit product without photos.run(EditIProduct003 - User want to edit product without photos:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667315135181.run(TempTestSuite1667315135181.groovy:36)
+
+
+2022-11-01 22:06:58 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2022-11-01 22:06:58 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Edit Product/EditIProduct003 - User want to edit product without photos
+
+2022-11-01 22:06:58 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Edit Product/EditIProduct003 - User want to edit product without photos
+
+2022-11-01 22:06:58 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-11-01 22:07:00 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[2022-11-01 22:06:35 - [TEST_CASE][ERROR] - Test Cases/stepDefinition/Feature Edit Product/EditIProduct003 - User want to edit product without photos: Test Cases/stepDefinition/Feature Edit Product/EditIProduct003 - User want to edit product without photos FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Pages/Navigation/Click Akun'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at EditIProduct003 - User want to edit product without photos.run(EditIProduct003 - User want to edit product without photos:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667315135181.run(TempTestSuite1667315135181.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/stepDefinition/Feature Edit Product/EditIProduct004 - User want to edit product without select category" time="25.902" classname="Test Cases/stepDefinition/Feature Edit Product/EditIProduct004 - User want to edit product without select category" status="ERROR">
+         <error type="ERROR" message="Test Cases/stepDefinition/Feature Edit Product/EditIProduct004 - User want to edit product without select category FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Pages/Navigation/Click Akun'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at EditIProduct004 - User want to edit product without select category.run(EditIProduct004 - User want to edit product without select category:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667315135181.run(TempTestSuite1667315135181.groovy:36)
+"/>
+         <system-out><![CDATA[2022-11-01 22:07:00 - [TEST_CASE][ERROR] - Test Cases/stepDefinition/Feature Edit Product/EditIProduct004 - User want to edit product without select category: Test Cases/stepDefinition/Feature Edit Product/EditIProduct004 - User want to edit product without select category FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Pages/Navigation/Click Akun'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at EditIProduct004 - User want to edit product without select category.run(EditIProduct004 - User want to edit product without select category:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667315135181.run(TempTestSuite1667315135181.groovy:36)
+
+
+2022-11-01 22:07:00 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'C:\Users\ASUS\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 22:07:00 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Edit Product/EditIProduct004 - User want to edit product without select category
+
+2022-11-01 22:07:00 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Edit Product/EditIProduct004 - User want to edit product without select category
+
+2022-11-01 22:07:00 - [TEST_STEP][PASSED] - launchApp(): null
+
+2022-11-01 22:07:00 - [TEST_STEP][PASSED] - startApplication("Apk/secondhand.apk", true): Started app at: 'C:\Users\ASUS\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 22:07:00 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-11-01 22:07:00 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-11-01 22:07:00 - [MESSAGE][INFO] - User set preference: ['appWaitforLunch', 'false']
+
+2022-11-01 22:07:00 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-01 22:07:02 - [MESSAGE][INFO] - Appium server started on port 49,363
+
+2022-11-01 22:07:13 - [MESSAGE][PASSED] - Started app at: 'C:\Users\ASUS\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 22:07:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("stepDefinition/Feature Login/Login001 - Login with valid credential"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential' successfully
+
+2022-11-01 22:07:13 - [TEST_CASE][PASSED] - Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential: Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential
+
+2022-11-01 22:07:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navigation/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-11-01 22:07:13 - [TEST_CASE][PASSED] - Test Cases/Pages/Navigation/Tap Akun: Test Cases/Pages/Navigation/Tap Akun
+
+2022-11-01 22:07:13 - [TEST_STEP][PASSED] - tap(findTestObject("navigation_bar/nav_akun"), 0): Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-11-01 22:07:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:07:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-11-01 22:07:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-11-01 22:07:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:07:14 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-11-01 22:07:14 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:07:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:07:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:07:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:07:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input email"), ["email":"apps1@thomi.anonaddy.me"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-11-01 22:07:15 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input email: Test Cases/Pages/Login/Input email
+
+2022-11-01 22:07:15 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_email"), 0): Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-11-01 22:07:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:07:16 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-11-01 22:07:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_email"), email, 0): Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-11-01 22:07:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:07:18 - [MESSAGE][PASSED] - Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-11-01 22:07:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-11-01 22:07:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input password"), ["password":"123456"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-11-01 22:07:18 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input password: Test Cases/Pages/Login/Input password
+
+2022-11-01 22:07:18 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_password"), 0): Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-11-01 22:07:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:07:18 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-11-01 22:07:18 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_password"), password, 0): Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-11-01 22:07:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:07:20 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-11-01 22:07:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-11-01 22:07:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:07:20 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-11-01 22:07:20 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:07:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:07:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:07:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:07:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Verify Content after Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-11-01 22:07:21 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Verify Content after Login: Test Cases/Pages/Login/Verify Content after Login
+
+2022-11-01 22:07:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/title_Akun Saya"), 0): Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-11-01 22:07:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:07:23 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-11-01 22:07:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/image_profile"), 0): Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-11-01 22:07:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:07:23 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-11-01 22:07:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_profile name"), 0): Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-11-01 22:07:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:07:23 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-11-01 22:07:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_phone"), 0): Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-11-01 22:07:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:07:24 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-11-01 22:07:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_email"), 0): Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-11-01 22:07:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:07:24 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-11-01 22:07:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-11-01 22:07:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential' successfully
+
+2022-11-01 22:07:24 - [TEST_STEP][ERROR] - callTestCase(findTestCase("Pages/Navigation/Click Akun"), [:], STOP_ON_FAILURE): Test Cases/stepDefinition/Feature Edit Product/EditIProduct004 - User want to edit product without select category FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Pages/Navigation/Click Akun'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at EditIProduct004 - User want to edit product without select category.run(EditIProduct004 - User want to edit product without select category:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667315135181.run(TempTestSuite1667315135181.groovy:36)
+
+
+2022-11-01 22:07:24 - [MESSAGE][ERROR] - Test Cases/stepDefinition/Feature Edit Product/EditIProduct004 - User want to edit product without select category FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Pages/Navigation/Click Akun'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at EditIProduct004 - User want to edit product without select category.run(EditIProduct004 - User want to edit product without select category:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667315135181.run(TempTestSuite1667315135181.groovy:36)
+
+
+2022-11-01 22:07:24 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2022-11-01 22:07:24 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Edit Product/EditIProduct004 - User want to edit product without select category
+
+2022-11-01 22:07:24 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Edit Product/EditIProduct004 - User want to edit product without select category
+
+2022-11-01 22:07:24 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-11-01 22:07:26 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[2022-11-01 22:07:00 - [TEST_CASE][ERROR] - Test Cases/stepDefinition/Feature Edit Product/EditIProduct004 - User want to edit product without select category: Test Cases/stepDefinition/Feature Edit Product/EditIProduct004 - User want to edit product without select category FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Pages/Navigation/Click Akun'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at EditIProduct004 - User want to edit product without select category.run(EditIProduct004 - User want to edit product without select category:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667315135181.run(TempTestSuite1667315135181.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-01 22:05:38 - [TEST_SUITE][ERROR] - Feature Edit Product: Test Cases/stepDefinition/Feature Edit Product/EditIProduct001 - User want to edit product with valid credential FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Pages/Navigation/Click Akun'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at EditIProduct001 - User want to edit product with valid credential.run(EditIProduct001 - User want to edit product with valid credential:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667315135181.run(TempTestSuite1667315135181.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-11-01 22:05:38 - [TEST_SUITE][ERROR] - Feature Edit Product: Test Cases/stepDefinition/Feature Edit Product/EditIProduct001 - User want to edit product with valid credential FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/Pages/Navigation/Click Akun'
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:75)
+	at com.kms.katalon.core.testcase.TestCaseFactory$findTestCase.callStatic(Unknown Source)
+	at EditIProduct001 - User want to edit product with valid credential.run(EditIProduct001 - User want to edit product with valid credential:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667315135181.run(TempTestSuite1667315135181.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

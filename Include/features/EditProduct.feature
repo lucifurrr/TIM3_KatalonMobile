@@ -1,32 +1,67 @@
-#Author: your.email@your.domain.com
-#Keywords Summary :
-#Feature: List of scenarios.
-#Scenario: Business rule through list of steps with arguments.
-#Given: Some precondition step
-#When: Some key actions
-#Then: To observe outcomes or validation
-#And,But: To enumerate more Given,When,Then steps
-#Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
-#Examples: Container for s table
-#Background: List of steps run before each of the scenarios
-#""" (Doc Strings)
-#| (Data Tables)
-#@ (Tags/Labels):To group Scenarios
-#<> (placeholder)
-#""
-## (Comments)
-#Sample Feature Definition Template
-@tag
-Feature: Title of your feature
-  I want to use this template for my feature file
+#Author : Sofia Awiliyah
 
-  @tag1
-  Scenario Outline: Title of your scenario outline
-    Given I want to write a step with <name>
-    When I check for the <value> in step
-    Then I verify the <status> in step
+@EDITPRODUCT
+Feature: User want to edit product
 
-    Examples: 
-      | name  | value | status  |
-      | name1 |     5 | success |
-      | name2 |     7 | Fail    |
+  @EDITPRODUCT001
+  Scenario: User want to edit product with valid credential
+    Then User login
+    Then User click akun button
+    Then User tap daftar jual button
+    Then User tap product detail
+    Then User verify element exist
+    Then User input product name "ASUS VIVOBOOK 14"
+    Then User input product price "11000000"
+    Then User choose category
+    Then User input product place "tangerang"
+    Then User input product description "Laptop ASUS VIVOBOOK 14, intel CORE i5"
+    Then User click button change image
+    Then User tap category
+    Then User tap perbarui product
+    Then User verify element success
+
+  @EDITPRODUCT002
+  Scenario: User want to edit product without fill product description
+    Then User login
+    Then User click akun button
+    Then User tap daftar jual button
+    Then User tap product detail
+    Then User verify element exist
+    Then User input product name "ASUS VIVOBOOK 14"
+    Then User input product price "11000000"
+    Then User choose category
+    Then User input product place "tangerang"
+    Then User input product description ""
+    Then User click button change image
+    Then User tap category
+    Then User tap perbarui product
+    Then User verify description empty
+
+  @EDITPRODUCT003
+  Scenario: User want to edit product without photos
+    Then User login
+    Then User click akun button
+    Then User tap daftar jual button
+    Then User tap product detail
+    Then User verify element exist
+    Then User input product name "ASUS VIVOBOOK 14"
+    Then User input product price "11000000"
+    Then User choose category
+    Then User input product place "tangerang"
+    Then User input product description "Asus Vivobook 14 Intel iCore 5 2021"
+    Then User tap category
+    Then User tap perbarui product
+
+  @EDITPRODUCT004
+  Scenario: User want to edit product without select category
+    Then User login
+    Then User click akun button
+    Then User tap daftar jual button
+    Then User tap product detail
+    Then User verify element exist
+    Then User input product name "ASUS VIVOBOOK 14"
+    Then User input product price "11000000"
+    Then User input product place "tangerang"
+    Then User input product description "Asus Vivobook 14 Intel iCore 5 2021"
+    Then User click button change image
+    Then User tap perbarui product

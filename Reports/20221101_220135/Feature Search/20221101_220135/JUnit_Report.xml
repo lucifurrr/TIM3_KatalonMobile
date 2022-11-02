@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Search" time="102.35" tests="2" failures="2" errors="0">
+   <testsuite name="Feature Search" tests="2" failures="2" errors="0" time="102.35" skipped="0" timestamp="2022-11-01 22:01:39" hostname="ASUS - VivoBookX421EAYB" id="Test Suites/Feature Search">
+      <properties>
+         <property name="deviceName" value="realme RMX3472 (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\TIM3_KatalonMobile\\Reports\\20221101_220135\\Feature Search\\20221101_220135"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\TIM3_KatalonMobile\\Reports\\20221101_220135\\Feature Search\\20221101_220135\\appium.log, C:\\Users\\ASUS\\git\\TIM3_KatalonMobile\\Reports\\20221101_220135\\Feature Search\\20221101_220135\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ASUS\\git\\TIM3_KatalonMobile\\Reports\\20221101_220135\\Feature Search\\20221101_220135\\1667314965549.png, C:\\Users\\ASUS\\git\\TIM3_KatalonMobile\\Reports\\20221101_220135\\Feature Search\\20221101_220135\\1667314999243.png"/>
+         <property name="hostName" value="ASUS - VivoBookX421EAYB"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="RMX3472"/>
+         <property name="hostAddress" value="192.168.8.155"/>
+         <property name="deviceManufacturer" value="realme"/>
+         <property name="deviceId" value="178d063b"/>
+         <property name="deviceName" value="realme RMX3472 (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/stepDefinition/Feature Search/SEARCH001 - User want to search for a product already on the display" time="69.004" classname="Test Cases/stepDefinition/Feature Search/SEARCH001 - User want to search for a product already on the display" status="FAILED">
+         <failure type="FAILED" message="Test Cases/stepDefinition/Feature Search/SEARCH001 - User want to search for a product already on the display FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/homepage/Tap Product Exist' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SEARCH001 - User want to search for a product already on the display.run(SEARCH001 - User want to search for a product already on the display:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667314895845.run(TempTestSuite1667314895845.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Homepage/text_tango' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:2031)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Tap Product Exist.run(Tap Product Exist:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+"/>
+         <system-out><![CDATA[2022-11-01 22:01:39 - [TEST_CASE][FAILED] - Test Cases/stepDefinition/Feature Search/SEARCH001 - User want to search for a product already on the display: Test Cases/stepDefinition/Feature Search/SEARCH001 - User want to search for a product already on the display FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/homepage/Tap Product Exist' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SEARCH001 - User want to search for a product already on the display.run(SEARCH001 - User want to search for a product already on the display:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667314895845.run(TempTestSuite1667314895845.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Homepage/text_tango' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:2031)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Tap Product Exist.run(Tap Product Exist:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2022-11-01 22:01:39 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'C:\Users\ASUS\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 22:01:39 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Search/SEARCH001 - User want to search for a product already on the display
+
+2022-11-01 22:01:39 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Search/SEARCH001 - User want to search for a product already on the display
+
+2022-11-01 22:01:39 - [TEST_STEP][PASSED] - launchApp(): null
+
+2022-11-01 22:01:39 - [TEST_STEP][PASSED] - startApplication("Apk/secondhand.apk", true): Started app at: 'C:\Users\ASUS\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 22:01:39 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-11-01 22:01:39 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-11-01 22:01:39 - [MESSAGE][INFO] - User set preference: ['appWaitforLunch', 'false']
+
+2022-11-01 22:01:40 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-01 22:01:42 - [MESSAGE][INFO] - Appium server started on port 65,055
+
+2022-11-01 22:01:57 - [MESSAGE][PASSED] - Started app at: 'C:\Users\ASUS\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 22:01:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("stepDefinition/Feature Login/Login001 - Login with valid credential"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential' successfully
+
+2022-11-01 22:01:57 - [TEST_CASE][PASSED] - Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential: Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential
+
+2022-11-01 22:01:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navigation/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-11-01 22:01:57 - [TEST_CASE][PASSED] - Test Cases/Pages/Navigation/Tap Akun: Test Cases/Pages/Navigation/Tap Akun
+
+2022-11-01 22:01:58 - [TEST_STEP][PASSED] - tap(findTestObject("navigation_bar/nav_akun"), 0): Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-11-01 22:01:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:01:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-11-01 22:01:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-11-01 22:01:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:01:58 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-11-01 22:01:59 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:01:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:01:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:01:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:01:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input email"), ["email":"apps1@thomi.anonaddy.me"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-11-01 22:01:59 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input email: Test Cases/Pages/Login/Input email
+
+2022-11-01 22:02:00 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_email"), 0): Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-11-01 22:02:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:02:00 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-11-01 22:02:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_email"), email, 0): Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-11-01 22:02:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:02:02 - [MESSAGE][PASSED] - Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-11-01 22:02:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-11-01 22:02:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input password"), ["password":"123456"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-11-01 22:02:02 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input password: Test Cases/Pages/Login/Input password
+
+2022-11-01 22:02:02 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_password"), 0): Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-11-01 22:02:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:02:02 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-11-01 22:02:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_password"), password, 0): Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-11-01 22:02:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:02:04 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-11-01 22:02:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-11-01 22:02:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:02:04 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-11-01 22:02:04 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:02:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:02:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:02:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:02:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Verify Content after Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-11-01 22:02:06 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Verify Content after Login: Test Cases/Pages/Login/Verify Content after Login
+
+2022-11-01 22:02:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/title_Akun Saya"), 0): Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-11-01 22:02:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:02:07 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-11-01 22:02:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/image_profile"), 0): Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-11-01 22:02:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:02:07 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-11-01 22:02:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_profile name"), 0): Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-11-01 22:02:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:02:07 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-11-01 22:02:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_phone"), 0): Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-11-01 22:02:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:02:08 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-11-01 22:02:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_email"), 0): Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-11-01 22:02:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:02:08 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-11-01 22:02:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-11-01 22:02:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential' successfully
+
+2022-11-01 22:02:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navigation/Tap Beranda"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navigation/Tap Beranda' successfully
+
+2022-11-01 22:02:08 - [TEST_CASE][PASSED] - Test Cases/Pages/Navigation/Tap Beranda: Test Cases/Pages/Navigation/Tap Beranda
+
+2022-11-01 22:02:09 - [TEST_STEP][PASSED] - tap(findTestObject("navigation_bar/nav_beranda"), 0): Tapped on element 'Object Repository/navigation_bar/nav_beranda'
+
+2022-11-01 22:02:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:02:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/navigation_bar/nav_beranda'
+
+2022-11-01 22:02:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navigation/Tap Beranda' successfully
+
+2022-11-01 22:02:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/homepage/Input Search"), ["input_search":"tango"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/homepage/Input Search' successfully
+
+2022-11-01 22:02:09 - [TEST_CASE][PASSED] - Test Cases/Pages/homepage/Input Search: Test Cases/Pages/homepage/Input Search
+
+2022-11-01 22:02:09 - [TEST_STEP][PASSED] - setText(findTestObject("Homepage/field_Search"), input_search, 0): Text 'tango' has been set to element 'Object Repository/Homepage/field_Search'
+
+2022-11-01 22:02:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:02:12 - [MESSAGE][PASSED] - Text 'tango' has been set to element 'Object Repository/Homepage/field_Search'
+
+2022-11-01 22:02:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/homepage/Input Search' successfully
+
+2022-11-01 22:02:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Homepage/product_tango"), 0): Element 'Object Repository/Homepage/product_tango' is present
+
+2022-11-01 22:02:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:02:13 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/product_tango' is present
+
+2022-11-01 22:02:13 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Pages/homepage/Tap Product Exist"), [:], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/Pages/homepage/Tap Product Exist' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/homepage/Tap Product Exist' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SEARCH001 - User want to search for a product already on the display.run(SEARCH001 - User want to search for a product already on the display:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667314895845.run(TempTestSuite1667314895845.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Homepage/text_tango' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:2031)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Tap Product Exist.run(Tap Product Exist:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2022-11-01 22:02:13 - [TEST_CASE][FAILED] - Test Cases/Pages/homepage/Tap Product Exist: Test Cases/Pages/homepage/Tap Product Exist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Homepage/text_tango' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:2031)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Tap Product Exist.run(Tap Product Exist:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SEARCH001 - User want to search for a product already on the display.run(SEARCH001 - User want to search for a product already on the display:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667314895845.run(TempTestSuite1667314895845.groovy:36)
+
+
+2022-11-01 22:02:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/image_tango"), 0): Element 'Object Repository/Homepage/image_tango' is visible
+
+2022-11-01 22:02:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:02:15 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/image_tango' is visible
+
+2022-11-01 22:02:15 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Homepage/text_tango"), 0): Failed to check for element 'Object Repository/Homepage/text_tango' visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Homepage/text_tango' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:2031)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Tap Product Exist.run(Tap Product Exist:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SEARCH001 - User want to search for a product already on the display.run(SEARCH001 - User want to search for a product already on the display:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667314895845.run(TempTestSuite1667314895845.groovy:36)
+)
+
+2022-11-01 22:02:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:02:45 - [MESSAGE][FAILED] - Element 'Object Repository/Homepage/text_tango' not found
+
+2022-11-01 22:02:46 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/Homepage/text_tango' visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Homepage/text_tango' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:2031)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Tap Product Exist.run(Tap Product Exist:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SEARCH001 - User want to search for a product already on the display.run(SEARCH001 - User want to search for a product already on the display:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667314895845.run(TempTestSuite1667314895845.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\ASUS\\git\\TIM3_KatalonMobile\\Reports\\20221101_220135\\Feature Search\\20221101_220135\\1667314965549.png]]
+
+2022-11-01 22:02:46 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Pages/homepage/Tap Product Exist' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/homepage/Tap Product Exist' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SEARCH001 - User want to search for a product already on the display.run(SEARCH001 - User want to search for a product already on the display:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667314895845.run(TempTestSuite1667314895845.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Homepage/text_tango' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:2031)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Tap Product Exist.run(Tap Product Exist:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2022-11-01 22:02:46 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2022-11-01 22:02:46 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Search/SEARCH001 - User want to search for a product already on the display
+
+2022-11-01 22:02:46 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Search/SEARCH001 - User want to search for a product already on the display
+
+2022-11-01 22:02:46 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-11-01 22:02:48 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[2022-11-01 22:01:39 - [TEST_CASE][FAILED] - Test Cases/stepDefinition/Feature Search/SEARCH001 - User want to search for a product already on the display: Test Cases/stepDefinition/Feature Search/SEARCH001 - User want to search for a product already on the display FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/homepage/Tap Product Exist' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SEARCH001 - User want to search for a product already on the display.run(SEARCH001 - User want to search for a product already on the display:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667314895845.run(TempTestSuite1667314895845.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Homepage/text_tango' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:2031)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Tap Product Exist.run(Tap Product Exist:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/stepDefinition/Feature Search/SEARCH002 - User want to search for a product not in the product list" time="33.051" classname="Test Cases/stepDefinition/Feature Search/SEARCH002 - User want to search for a product not in the product list" status="FAILED">
+         <failure type="FAILED" message="Test Cases/stepDefinition/Feature Search/SEARCH002 - User want to search for a product not in the product list FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/homepage/Tap Product Not Exist' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SEARCH002 - User want to search for a product not in the product list.run(SEARCH002 - User want to search for a product not in the product list:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667314895845.run(TempTestSuite1667314895845.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Homepage/image_tango' is visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:75)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementNotVisible(MobileBuiltInKeywords.groovy:2064)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementNotVisible$6.call(Unknown Source)
+	at Tap Product Not Exist.run(Tap Product Not Exist:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+"/>
+         <system-out><![CDATA[2022-11-01 22:02:48 - [TEST_CASE][FAILED] - Test Cases/stepDefinition/Feature Search/SEARCH002 - User want to search for a product not in the product list: Test Cases/stepDefinition/Feature Search/SEARCH002 - User want to search for a product not in the product list FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/homepage/Tap Product Not Exist' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SEARCH002 - User want to search for a product not in the product list.run(SEARCH002 - User want to search for a product not in the product list:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667314895845.run(TempTestSuite1667314895845.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Homepage/image_tango' is visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:75)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementNotVisible(MobileBuiltInKeywords.groovy:2064)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementNotVisible$6.call(Unknown Source)
+	at Tap Product Not Exist.run(Tap Product Not Exist:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2022-11-01 22:02:48 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'C:\Users\ASUS\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 22:02:48 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Search/SEARCH002 - User want to search for a product not in the product list
+
+2022-11-01 22:02:48 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Search/SEARCH002 - User want to search for a product not in the product list
+
+2022-11-01 22:02:48 - [TEST_STEP][PASSED] - launchApp(): null
+
+2022-11-01 22:02:48 - [TEST_STEP][PASSED] - startApplication("Apk/secondhand.apk", true): Started app at: 'C:\Users\ASUS\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 22:02:48 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-11-01 22:02:48 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-11-01 22:02:48 - [MESSAGE][INFO] - User set preference: ['appWaitforLunch', 'false']
+
+2022-11-01 22:02:48 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-11-01 22:02:50 - [MESSAGE][INFO] - Appium server started on port 65,194
+
+2022-11-01 22:03:02 - [MESSAGE][PASSED] - Started app at: 'C:\Users\ASUS\git\TIM3_KatalonMobile\Apk\secondhand.apk'
+
+2022-11-01 22:03:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("stepDefinition/Feature Login/Login001 - Login with valid credential"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential' successfully
+
+2022-11-01 22:03:03 - [TEST_CASE][PASSED] - Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential: Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential
+
+2022-11-01 22:03:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navigation/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-11-01 22:03:03 - [TEST_CASE][PASSED] - Test Cases/Pages/Navigation/Tap Akun: Test Cases/Pages/Navigation/Tap Akun
+
+2022-11-01 22:03:03 - [TEST_STEP][PASSED] - tap(findTestObject("navigation_bar/nav_akun"), 0): Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-11-01 22:03:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:03:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/navigation_bar/nav_akun'
+
+2022-11-01 22:03:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navigation/Tap Akun' successfully
+
+2022-11-01 22:03:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:03:04 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-11-01 22:03:05 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:03:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:03:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:03:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:03:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input email"), ["email":"apps1@thomi.anonaddy.me"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-11-01 22:03:05 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input email: Test Cases/Pages/Login/Input email
+
+2022-11-01 22:03:05 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_email"), 0): Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-11-01 22:03:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:03:06 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_email' text is cleared
+
+2022-11-01 22:03:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_email"), email, 0): Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-11-01 22:03:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:03:07 - [MESSAGE][PASSED] - Text 'apps1@thomi.anonaddy.me' has been set to element 'Object Repository/Page_Login/textfield_email'
+
+2022-11-01 22:03:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input email' successfully
+
+2022-11-01 22:03:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input password"), ["password":"123456"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-11-01 22:03:07 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input password: Test Cases/Pages/Login/Input password
+
+2022-11-01 22:03:07 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/textfield_password"), 0): Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-11-01 22:03:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:03:08 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/textfield_password' text is cleared
+
+2022-11-01 22:03:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/textfield_password"), password, 0): Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-11-01 22:03:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:03:09 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Page_Login/textfield_password'
+
+2022-11-01 22:03:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input password' successfully
+
+2022-11-01 22:03:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:03:09 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap masuk: Test Cases/Pages/Login/Tap masuk
+
+2022-11-01 22:03:09 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Akun/button_Masuk"), 0): Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:03:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:03:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Akun/button_Masuk'
+
+2022-11-01 22:03:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap masuk' successfully
+
+2022-11-01 22:03:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Verify Content after Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-11-01 22:03:10 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Verify Content after Login: Test Cases/Pages/Login/Verify Content after Login
+
+2022-11-01 22:03:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/title_Akun Saya"), 0): Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-11-01 22:03:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:03:12 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/title_Akun Saya' is visible
+
+2022-11-01 22:03:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/image_profile"), 0): Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-11-01 22:03:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:03:12 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/image_profile' is visible
+
+2022-11-01 22:03:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_profile name"), 0): Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-11-01 22:03:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:03:12 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_profile name' is visible
+
+2022-11-01 22:03:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_phone"), 0): Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-11-01 22:03:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:03:13 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_phone' is visible
+
+2022-11-01 22:03:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Akun/text_email"), 0): Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-11-01 22:03:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:03:13 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Akun/text_email' is visible
+
+2022-11-01 22:03:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Verify Content after Login' successfully
+
+2022-11-01 22:03:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/stepDefinition/Feature Login/Login001 - Login with valid credential' successfully
+
+2022-11-01 22:03:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navigation/Tap Beranda"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navigation/Tap Beranda' successfully
+
+2022-11-01 22:03:13 - [TEST_CASE][PASSED] - Test Cases/Pages/Navigation/Tap Beranda: Test Cases/Pages/Navigation/Tap Beranda
+
+2022-11-01 22:03:13 - [TEST_STEP][PASSED] - tap(findTestObject("navigation_bar/nav_beranda"), 0): Tapped on element 'Object Repository/navigation_bar/nav_beranda'
+
+2022-11-01 22:03:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:03:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/navigation_bar/nav_beranda'
+
+2022-11-01 22:03:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navigation/Tap Beranda' successfully
+
+2022-11-01 22:03:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/homepage/Input Search"), ["input_search":"potato"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/homepage/Input Search' successfully
+
+2022-11-01 22:03:13 - [TEST_CASE][PASSED] - Test Cases/Pages/homepage/Input Search: Test Cases/Pages/homepage/Input Search
+
+2022-11-01 22:03:13 - [TEST_STEP][PASSED] - setText(findTestObject("Homepage/field_Search"), input_search, 0): Text 'potato' has been set to element 'Object Repository/Homepage/field_Search'
+
+2022-11-01 22:03:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:03:17 - [MESSAGE][PASSED] - Text 'potato' has been set to element 'Object Repository/Homepage/field_Search'
+
+2022-11-01 22:03:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/homepage/Input Search' successfully
+
+2022-11-01 22:03:17 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Pages/homepage/Tap Product Not Exist"), [:], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/Pages/homepage/Tap Product Not Exist' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/homepage/Tap Product Not Exist' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SEARCH002 - User want to search for a product not in the product list.run(SEARCH002 - User want to search for a product not in the product list:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667314895845.run(TempTestSuite1667314895845.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Homepage/image_tango' is visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:75)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementNotVisible(MobileBuiltInKeywords.groovy:2064)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementNotVisible$6.call(Unknown Source)
+	at Tap Product Not Exist.run(Tap Product Not Exist:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2022-11-01 22:03:17 - [TEST_CASE][FAILED] - Test Cases/Pages/homepage/Tap Product Not Exist: Test Cases/Pages/homepage/Tap Product Not Exist FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Homepage/image_tango' is visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:75)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementNotVisible(MobileBuiltInKeywords.groovy:2064)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementNotVisible$6.call(Unknown Source)
+	at Tap Product Not Exist.run(Tap Product Not Exist:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SEARCH002 - User want to search for a product not in the product list.run(SEARCH002 - User want to search for a product not in the product list:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667314895845.run(TempTestSuite1667314895845.groovy:36)
+
+
+2022-11-01 22:03:17 - [TEST_STEP][FAILED] - verifyElementNotVisible(findTestObject("Homepage/image_tango"), 0): Failed to check if element 'Object Repository/Homepage/image_tango' is not visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Homepage/image_tango' is visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:75)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementNotVisible(MobileBuiltInKeywords.groovy:2064)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementNotVisible$6.call(Unknown Source)
+	at Tap Product Not Exist.run(Tap Product Not Exist:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SEARCH002 - User want to search for a product not in the product list.run(SEARCH002 - User want to search for a product not in the product list:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667314895845.run(TempTestSuite1667314895845.groovy:36)
+)
+
+2022-11-01 22:03:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-11-01 22:03:19 - [MESSAGE][FAILED] - Element 'Object Repository/Homepage/image_tango' is visible
+
+2022-11-01 22:03:20 - [MESSAGE][FAILED] - Failed to check if element 'Object Repository/Homepage/image_tango' is not visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Homepage/image_tango' is visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:75)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementNotVisible(MobileBuiltInKeywords.groovy:2064)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementNotVisible$6.call(Unknown Source)
+	at Tap Product Not Exist.run(Tap Product Not Exist:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SEARCH002 - User want to search for a product not in the product list.run(SEARCH002 - User want to search for a product not in the product list:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667314895845.run(TempTestSuite1667314895845.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\ASUS\\git\\TIM3_KatalonMobile\\Reports\\20221101_220135\\Feature Search\\20221101_220135\\1667314999243.png]]
+
+2022-11-01 22:03:20 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Pages/homepage/Tap Product Not Exist' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/homepage/Tap Product Not Exist' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SEARCH002 - User want to search for a product not in the product list.run(SEARCH002 - User want to search for a product not in the product list:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667314895845.run(TempTestSuite1667314895845.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Homepage/image_tango' is visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:75)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementNotVisible(MobileBuiltInKeywords.groovy:2064)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementNotVisible$6.call(Unknown Source)
+	at Tap Product Not Exist.run(Tap Product Not Exist:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2022-11-01 22:03:20 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2022-11-01 22:03:20 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/stepDefinition/Feature Search/SEARCH002 - User want to search for a product not in the product list
+
+2022-11-01 22:03:20 - [MESSAGE][INFO] - Test Case: Test Cases/stepDefinition/Feature Search/SEARCH002 - User want to search for a product not in the product list
+
+2022-11-01 22:03:20 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-11-01 22:03:21 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[2022-11-01 22:02:48 - [TEST_CASE][FAILED] - Test Cases/stepDefinition/Feature Search/SEARCH002 - User want to search for a product not in the product list: Test Cases/stepDefinition/Feature Search/SEARCH002 - User want to search for a product not in the product list FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/homepage/Tap Product Not Exist' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SEARCH002 - User want to search for a product not in the product list.run(SEARCH002 - User want to search for a product not in the product list:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667314895845.run(TempTestSuite1667314895845.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Homepage/image_tango' is visible
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:75)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementNotVisible(MobileBuiltInKeywords.groovy:2064)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementNotVisible$6.call(Unknown Source)
+	at Tap Product Not Exist.run(Tap Product Not Exist:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-01 22:01:39 - [TEST_SUITE][FAILED] - Feature Search: Test Cases/stepDefinition/Feature Search/SEARCH001 - User want to search for a product already on the display FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/homepage/Tap Product Exist' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SEARCH001 - User want to search for a product already on the display.run(SEARCH001 - User want to search for a product already on the display:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667314895845.run(TempTestSuite1667314895845.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Homepage/text_tango' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:2031)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Tap Product Exist.run(Tap Product Exist:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2022-11-01 22:01:39 - [TEST_SUITE][FAILED] - Feature Search: Test Cases/stepDefinition/Feature Search/SEARCH001 - User want to search for a product already on the display FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Pages/homepage/Tap Product Exist' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at SEARCH001 - User want to search for a product already on the display.run(SEARCH001 - User want to search for a product already on the display:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667314895845.run(TempTestSuite1667314895845.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Homepage/text_tango' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:2031)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$3.call(Unknown Source)
+	at Tap Product Exist.run(Tap Product Exist:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>
